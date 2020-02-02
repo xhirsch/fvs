@@ -6,7 +6,6 @@ import ProjectLink from './ProjectLink';
 const Ausstellungen = ({}) => {
   return (
     <div className="flex flex-col pl-12 pr-12 pt-16 text-xs">
-      {/* 2017 Neue Galerie Graz */}
       <ProjectLink
         to="/ausstellungen/graz"
         year="2017"
@@ -32,7 +31,6 @@ const Ausstellungen = ({}) => {
         year="2012"
         title="Museum Folkwang Essen"
       />
-
       <ProjectLink
         to="/ausstellungen/wolfsburg"
         year="2010"
