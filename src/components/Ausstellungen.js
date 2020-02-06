@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
-import React from 'react';
+import { Link } from "react-router-dom";
+import React from "react";
 
-import ProjectLink from './ProjectLink';
+import ProjectLink from "./ProjectLink";
 
 const Ausstellungen = ({}) => {
   return (
