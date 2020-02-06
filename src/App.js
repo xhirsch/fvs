@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 
-import Ausstellung from "./components/Ausstellung";
+import Project from "./components/Project";
 import Ausstellungen from "./components/Ausstellungen";
 import Biographie from "./components/Biographie";
 import Datenschutz from "./components/Datenschutz";
@@ -10,7 +10,6 @@ import Impressum from "./components/Impressum";
 import Nav from "./components/Navbar/Nav";
 import Projekte from "./components/Projekte";
 import Publikationen from "./components/Publikationen";
-import Publikation from "./components/Publikation";
 
 const App = ({}) => {
   return (
@@ -24,10 +23,11 @@ const App = ({}) => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/ausstellungen" component={Ausstellungen} />
-            <Route path="/ausstellungen/:name" component={Ausstellung} />
+            <Route path="/ausstellungen/:name" component={Project} />
             <Route exact path="/publikationen" component={Publikationen} />
-            <Route path="/publikationen/:name" component={Publikation} />
-            <Route path="/projekte" component={Projekte} />
+            <Route path="/publikationen/:name" component={Project} />
+            <Route exact path="/projekte" component={Projekte} />
+            <Route path="/projekte/:name" component={Project} />
             <Route path="/biographie" component={Biographie} />
             <Route path="/impressum" component={Impressum} />
             <Route path="/datenschutz" component={Datenschutz} />

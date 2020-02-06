@@ -9,6 +9,13 @@ import Essen from "./Ausstellungen/Essen";
 import Wolfsburg from "./Ausstellungen/Wolfsburg";
 import HBK from "./Ausstellungen/HBK";
 import Philharmonie from "./Ausstellungen/Philharmonie";
+import Augen from "./Publikationen/Augen";
+import Blick from "./Publikationen/Blick";
+import GanzeTeile from "./Publikationen/GanzeTeile";
+import Haut from "./Publikationen/Haut";
+import Polymorph from "./Publikationen/Polymorph";
+import Cats from "./Projekte/Cats";
+import Held from "./Projekte/Held";
 
 const whatToRender = name => {
   switch (name) {
@@ -28,12 +35,26 @@ const whatToRender = name => {
       return <HBK />;
     case "philharmonie":
       return <Philharmonie />;
+    case "augen":
+      return <Augen />;
+    case "blick":
+      return <Blick />;
+    case "ganzeteile":
+      return <GanzeTeile />;
+    case "haut":
+      return <Haut />;
+    case "polymorph":
+      return <Polymorph />;
+    case "cats":
+      return <Cats />;
+    case "held":
+      return <Held />;
     default:
       return <h1>Halluuuu</h1>;
   }
 };
 
-const ausstellung = {
+const project = {
   mainz: KunsthalleMainz,
   graz: NeueGalerieGraz,
   cartagena: Cartagena,
@@ -41,13 +62,20 @@ const ausstellung = {
   essen: Essen,
   wolfsburg: Wolfsburg,
   hbk: HBK,
-  philharmonie: Philharmonie
+  philharmonie: Philharmonie,
+  augen: Augen,
+  blick: Blick,
+  ganzeteile: GanzeTeile,
+  haut: Haut,
+  polymorph: Polymorph,
+  cats: Cats,
+  held: Held
 };
-const Ausstellung = () => {
+const Project = () => {
   const { name } = useParams();
   console.log(name);
-  const AusstellungZumRendern = ausstellung[name];
-  return <AusstellungZumRendern />;
+  const ProjectZumRendern = project[name];
+  return <ProjectZumRendern />;
 };
 
-export default Ausstellung;
+export default Project;
