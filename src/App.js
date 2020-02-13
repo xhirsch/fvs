@@ -10,13 +10,14 @@ import Impressum from "./components/Impressum";
 import Nav from "./components/Navbar/Nav";
 import Projekte from "./components/Projekte";
 import Publikationen from "./components/Publikationen";
+import SideNav from "./components/Navbar/SideNav";
 
 const App = ({}) => {
   return (
     <div className="h-full">
       <Router>
         <Nav />
-        {/*<SideNav />*/}
+        <SideNav />
         <main>
           {/* // Switch is not necessary but best practice. Lookup */}
           {/* https://reacttraining.com/react-router/web/api/Switch */}
