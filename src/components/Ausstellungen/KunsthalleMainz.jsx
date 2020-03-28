@@ -25,6 +25,7 @@ import img21 from "../../assets/images/ausstellungen/stockhausen_mainz_21.png";
 import img22 from "../../assets/images/ausstellungen/stockhausen_mainz_22.png";
 import img23 from "../../assets/images/ausstellungen/stockhausen_mainz_23.png";
 import img24 from "../../assets/images/ausstellungen/stockhausen_mainz_24.png";
+import MainzText from "./Texte/MainzText";
 
 const KunsthalleMainz = () => {
   return (
@@ -36,6 +37,7 @@ const KunsthalleMainz = () => {
         showStatus={false}
         showIndicators={false}
         emulateTouch
+        dynamicHeight
       >
         <div>
           <img alt="" src={img1} />
@@ -108,6 +110,9 @@ const KunsthalleMainz = () => {
         </div>
         <div>
           <img alt="" src={img24} />
+        </div>
+        <div>
+          <MainzText />
         </div>
       </StyledCarousel >
 
