@@ -11,6 +11,7 @@ import img7 from "../../assets/images/projekte/stockhausen_cats_7.png";
 import img8 from "../../assets/images/projekte/stockhausen_cats_8.png";
 import img9 from "../../assets/images/projekte/stockhausen_cats_9.png";
 import img10 from "../../assets/images/projekte/stockhausen_cats_10.png";
+import CatsText from "./Texte/CatsText";
 
 const Cats = () => {
   return (
@@ -22,6 +23,7 @@ const Cats = () => {
         showStatus={false}
         showIndicators={false}
         emulateTouch
+        dynamicHeight
       >
         <div>
           <img alt="" src={img1} />
@@ -52,6 +54,9 @@ const Cats = () => {
         </div>
         <div>
           <img alt="" src={img10} />
+        </div>
+        <div>
+          <CatsText />
         </div>
       </StyledCarousel >
 

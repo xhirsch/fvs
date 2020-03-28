@@ -23,6 +23,7 @@ import img19 from "../../assets/images/ausstellungen/stockhausen_haum_19.png";
 import img20 from "../../assets/images/ausstellungen/stockhausen_haum_20.png";
 import img21 from "../../assets/images/ausstellungen/stockhausen_haum_21.png";
 import img22 from "../../assets/images/ausstellungen/stockhausen_haum_22.png";
+import HaumText from "./Texte/HaumText";
 
 const Braunschweig = () => {
   return (
@@ -34,6 +35,7 @@ const Braunschweig = () => {
         showStatus={false}
         showIndicators={false}
         emulateTouch
+        dynamicHeight
       >
         <div>
           <img alt="" src={img1} />
@@ -100,6 +102,9 @@ const Braunschweig = () => {
         </div>
         <div>
           <img alt="" src={img22} />
+        </div>
+        <div>
+          <HaumText />
         </div>
       </StyledCarousel >
 
