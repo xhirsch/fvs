@@ -14,6 +14,7 @@ import img10 from "../../assets/images/ausstellungen/stockhausen_graz_10.png";
 import img11 from "../../assets/images/ausstellungen/stockhausen_graz_11.png";
 import img12 from "../../assets/images/ausstellungen/stockhausen_graz_12.png";
 import img13 from "../../assets/images/ausstellungen/stockhausen_graz_13.png";
+import GrazText from "./Texte/GrazText";
 
 const Graz = () => {
   return (
@@ -25,6 +26,7 @@ const Graz = () => {
         showStatus={false}
         showIndicators={false}
         emulateTouch
+        dynamicHeight
       >
         <div>
           <img alt="" src={img1} />
@@ -64,6 +66,9 @@ const Graz = () => {
         </div>
         <div>
           <img alt="" src={img13} />
+        </div>
+        <div>
+          <GrazText />
         </div>
       </StyledCarousel >
 
