@@ -2,6 +2,8 @@ import React from "react";
 import StyledCarousel from "../StyledCarousel";
 // import "../../css/carousel_new.css";
 
+import img1 from "../../assets/images/ausstellungen/stockhausen_graz_1.png";
+
 const Graz = () => {
   return (
     <div className="h-screen pt-12">
@@ -15,9 +17,7 @@ const Graz = () => {
 
       >
         <div>
-          <img src={require("../../assets/images/ausstellungen/stockhausen_graz_1.png")} />
-
-
+          <img src={img1} />
         </div >
         <div>
           <img src={require("../../assets/images/ausstellungen/stockhausen_graz_2.png")} />
