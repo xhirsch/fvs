@@ -12,11 +12,6 @@ const Projekte = ({ }) => {
         title="» CATSweb « Kunst am Bau – Bodengestaltung, Heidelberg"
       />
       <ProjectLink
-        to="/projekte/valve1"
-        year="2006"
-        title="Valve / Ventil"
-      />
-      <ProjectLink
         to="/projekte/held"
         year="2004"
         title="» Ein Held unserer Zeit « 31 Photographien"

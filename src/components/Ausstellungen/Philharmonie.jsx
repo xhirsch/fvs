@@ -1,29 +1,29 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "../../css/carousel.css";
+import StyledCarousel from "../StyledCarousel";
+
+import img1 from "../../assets/images/ausstellungen/stockhausen_philharmonie_1.png";
 
 const Philharmonie = () => {
   return (
-    <div className="h-screen p-12">
-      <Carousel
+    <div className="h-screen">
+      <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={false}
+        showThumbs={true}
         showStatus={false}
         showIndicators={false}
         emulateTouch
-        className=""
       >
         <div>
-          <img src={require("../../assets/images/ausstellungen/stockhausen_philharmonie_1.png")} />
-
-          <div className="text-left text-xs ml-12 mt-12">
-            <p className="mb-2">«Emanuel Feuermann»</p>
-            <p>Foyer Kammermusiksaal,</p>
-            <p>Philharmonie Berlin 2006</p>
-          </div>
+          <img alt="" src={img1} />
         </div >
-      </Carousel >
+      </StyledCarousel >
+
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+        <p className="mb-2">«Emanuel Feuermann»</p>
+        <p>Foyer Kammermusiksaal,</p>
+        <p>Philharmonie Berlin 2006</p>
+      </div>
     </div>
   );
 };

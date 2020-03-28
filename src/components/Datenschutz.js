@@ -2,8 +2,8 @@ import React from "react";
 
 const Datenschutz = ({ }) => {
   return (
-    <div className="flex pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
-      <div className="right">
+    <div className="flex">
+      <div className="pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
         {/* Headline */}
         <div className="flex font-bold">
           <div className="">
@@ -50,7 +50,9 @@ const Datenschutz = ({ }) => {
                 href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
                 target="_blank"
                 className="hover:underline"
-              > https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.</a>
+              >
+                <p>Link.</p>
+              </a>
             </p>
           </div>
         </div>
@@ -203,7 +205,15 @@ const Datenschutz = ({ }) => {
               Um unsere Inhalte browserübergreifend korrekt und grafisch
               ansprechend darzustellen, verwenden wir auf dieser Website
               Scriptbibliotheken und Schriftbibliotheken wie z. B. Google
-              Webfonts (https://www.google.com/webfonts/). Google Webfonts
+              Webfonts (
+                <a
+                href="https://www.google.com/webfonts/"
+                target="_blank"
+                className="hover:underline"
+              >
+                <p>Link.</p>
+              </a>
+            ). Google Webfonts
               werden zur Vermeidung mehrfachen Ladens in den Cache Ihres
               Browsers übertragen. Falls der Browser die Google Webfonts nicht
               unterstützt oder den Zugriff unterbindet, werden Inhalte in einer
@@ -213,7 +223,14 @@ const Datenschutz = ({ }) => {
               allerdings auch unklar ob und ggf. zu welchen Zwecken – dass
               Betreiber entsprechender Bibliotheken Daten erheben. Die
               Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie
-              hier: https://www.google.com/policies/privacy/
+              hier: <a
+                href="https://www.google.com/policies/privacy/"
+                target="_blank"
+                className="hover:underline"
+              >
+                <p>Link</p>
+              </a>
+
             </p>
           </div>
         </div>
@@ -272,7 +289,7 @@ const Datenschutz = ({ }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

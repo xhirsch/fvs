@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from "react-responsive-carousel";
+import "../css/carousel.css";
 
 const divStyles = {
     width: '100%',
-    background: 'aquamarine'
 }
 
 const StyledCarousel = ({ children, ...rest }) => {
