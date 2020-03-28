@@ -3,9 +3,9 @@ import React from "react";
 
 import ProjectLink from "./ProjectLink";
 
-const Ausstellungen = ({}) => {
+const Ausstellungen = ({ }) => {
   return (
-    <div className="flex flex-col pl-12 pr-12 pt-16 text-xs">
+    <div className="flex flex-col pt-40 pr-8 text-xl xl:text-sm">
       <ProjectLink
         to="/ausstellungen/graz"
         year="2017"

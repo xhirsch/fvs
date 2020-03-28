@@ -1,26 +1,28 @@
 import React from "react";
+import { useState } from 'react';
 import "./side.css";
+import Hamburger from "./Hamburger";
 
 const SideNav = ({ props }) => (
   <nav>
-    <ul className="sidenav w-full bg-gray-100 text-4xl">
+    <ul className="sidenav w-full text-xl p-4">
       <a href="/ausstellungen">
-        <li className="px-3 py-1 hover:bg-white">Ausstellungen</li>
+        <li className="px-3 py-2 hover:bg-white">Ausstellungen</li>
       </a>
       <a href="/publikationen">
-        <li className="px-3 py-1 hover:bg-white">Publikationen</li>
+        <li className="px-3 py-2 hover:bg-white">Publikationen</li>
       </a>
       <a href="/projekte">
-        <li className="px-3 py-1 hover:bg-white">Projekte</li>
+        <li className="px-3 py-2 hover:bg-white">Projekte</li>
       </a>
       <a href="/biographie">
-        <li className="px-3 py-1 hover:bg-white">Biographie</li>
+        <li className="px-3 py-2 hover:bg-white">Biographie</li>
       </a>
       <a href="/impressum">
-        <li className="px-3 py-1 hover:bg-white">Impressum</li>
+        <li className="px-3 py-2 hover:bg-white">Impressum</li>
       </a>
       <a href="/datenschutz">
-        <li className="px-3 py-1 hover:bg-white">Datenschutz</li>
+        <li className="px-3 py-2 hover:bg-white">Datenschutz</li>
       </a>
     </ul>
   </nav>

@@ -12,12 +12,12 @@ import Projekte from "./components/Projekte";
 import Publikationen from "./components/Publikationen";
 import SideNav from "./components/Navbar/SideNav";
 
-const App = ({}) => {
+const App = ({ }) => {
   return (
     <div className="h-full">
       <Router>
-        <Nav />
         <SideNav />
+        <Nav />
         <main>
           {/* // Switch is not necessary but best practice. Lookup */}
           {/* https://reacttraining.com/react-router/web/api/Switch */}
