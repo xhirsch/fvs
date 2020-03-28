@@ -3,9 +3,9 @@ import { useState } from 'react';
 import "./side.css";
 import Hamburger from "./Hamburger";
 
-const SideNav = ({ props }) => (
+const SideNav = ({ open }) => (
   <nav>
-    <ul className="sidenav w-full text-xl p-4">
+    <ul className={`sidenav ${open && 'sidenav-open'} w-full text-xl p-4`}>
       <a href="/ausstellungen">
         <li className="px-3 py-2 hover:bg-white">Ausstellungen</li>
       </a>
