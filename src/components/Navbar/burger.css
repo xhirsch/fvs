@@ -1,0 +1,33 @@
+.x #topline {
+    transform-origin: top left;
+    transform: rotate(45deg);
+}
+.x #centerline {
+    transform: rotate(45deg);
+    opacity: 0;
+}
+.x #bottomline {
+    transform-origin: top left;
+    transform: rotate(-45deg);
+}
+
+.burger-container {
+    width: 33px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    outline: none;
+    border: none;
+}
+
+.burger-container:focus {
+    outline: none;
+}
+
+
+.burger-container div {
+    height: 1px;
+    background: black;
+}

@@ -3,12 +3,12 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 import Hamburger from "./Hamburger";
 
-const Nav = ({ }) => {
+const Nav = ({ open, setOpen }) => {
 
-  const [open, setOpen] = useState(false);
+
 
   return (
-    <nav className="z-200 w-full">
+    <nav className="z-50 w-full fixed">
       {/* schwarzer Balken top screen */}
       <div className="bg-black h-2"></div>
       {/* Navbar*/}

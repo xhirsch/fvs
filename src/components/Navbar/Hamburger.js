@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { bool, func } from 'prop-types';
+import './burger.css';
 
-const Hamburger = ({ open, setOpen }) => (
-  <button open={open} onClick={() => setOpen(!open)} className="flex flex-col justify-around h-4">
-    <div className="bg-black h-px w-4" />
-    <div className="bg-black h-px w-4" />
-    <div className="bg-black h-px w-4" />
-  </button>
-);
+const Hamburger = ({ setOpen, open }) => {
+
+  const handleClick = useCallback((e) => {
+    setOpen(prev => !prev)
+  }, [setOpen]);
+
+  return (
+    <button onClick={handleClick} className={`burger-container ${open && 'x'}`}>
+      <div id="topline" />
+      <div id="centerline" />
+      <div id="bottomline" />
+    </button>
+  )
+};
 
 Hamburger.propTypes = {
   open: bool.isRequired,
