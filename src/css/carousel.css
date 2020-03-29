@@ -89,7 +89,6 @@
     -o-transition: border 0.15s ease-in;
     transition: border 0.15s ease-in;
     display: inline-block;
-    width: 100px;
     margin-right: 6px;
     white-space: nowrap;
     overflow: hidden;
@@ -100,7 +99,11 @@
     .carousel .thumb.selected, .carousel .thumb:hover {
       border: 1px solid #333; }
     .carousel .thumb img {
-      vertical-align: top; }
+      vertical-align: top;
+      object-fit: contain;
+      width: 160px;
+      height: 90px;
+     }
   .carousel.carousel-slider {
     position: relative;
     margin: 0;

@@ -103,7 +103,7 @@ const Polymorph = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>«Polymorph»</p>
         <p>zur Ausstellung im Kunstverein Wolfenbüttel,</p>
         <p>23. November - 28. März 2003</p>

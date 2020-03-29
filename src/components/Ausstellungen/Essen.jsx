@@ -91,7 +91,7 @@ const Essen = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p className="mb-2">«Ganze Teile»</p>
         <p>Museum Folkwang Essen</p>
         <p>25. August - 21. Oktober 2012</p>

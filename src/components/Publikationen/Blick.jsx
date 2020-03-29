@@ -340,7 +340,7 @@ const Blick = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p className="mb-2">«Blicke, Hoch, 1:1, …»</p>
         <p>Galerie der HBK Braunschweig,</p>
         <p>21. Oktober - 28. November 2009</p>

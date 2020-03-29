@@ -147,7 +147,7 @@ const Haut = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>«In einer anderen Haut – w innej skórze»</p>
         <p>Salon Verlag, Köln 2005</p>
         <p className="mb-2">Mit einem Text von Olga Tocarzuk</p>

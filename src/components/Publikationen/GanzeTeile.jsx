@@ -31,7 +31,7 @@ const GanzeTeile = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>«Ganze Teile»</p>
         <p>Museum Folkwang Essen, 2012</p>
       </div>

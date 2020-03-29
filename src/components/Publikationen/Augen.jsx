@@ -167,7 +167,7 @@ const Augen = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>«77 Augen»</p>
         <p>Edition Braus, Heidelberg 2008</p>
         <p className="mb-2">mit Texten von Jan Assmann, Dina Faltings, Axel Michaels</p>

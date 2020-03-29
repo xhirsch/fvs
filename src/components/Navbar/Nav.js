@@ -5,8 +5,6 @@ import Hamburger from "./Hamburger";
 
 const Nav = ({ open, setOpen }) => {
 
-
-
   return (
     <nav className="z-50 w-full fixed bg-gray-100">
       {/* schwarzer Balken top screen */}

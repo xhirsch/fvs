@@ -1,17 +1,17 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/ausstellungen/stockhausen_cartagena_1.png";
-import img2 from "../../assets/images/ausstellungen/stockhausen_cartagena_2.png";
-import img3 from "../../assets/images/ausstellungen/stockhausen_cartagena_3.png";
-import img4 from "../../assets/images/ausstellungen/stockhausen_cartagena_4.png";
-import img5 from "../../assets/images/ausstellungen/stockhausen_cartagena_5.png";
-import img6 from "../../assets/images/ausstellungen/stockhausen_cartagena_6.png";
-import img7 from "../../assets/images/ausstellungen/stockhausen_cartagena_7.png";
-import img8 from "../../assets/images/ausstellungen/stockhausen_cartagena_8.png";
-import img9 from "../../assets/images/ausstellungen/stockhausen_cartagena_9.png";
-import img10 from "../../assets/images/ausstellungen/stockhausen_cartagena_10.png";
-import img11 from "../../assets/images/ausstellungen/stockhausen_cartagena_11.png";
+import img1 from "../../assets/images/ausstellungen/stockhausen_cartagena_1.jpg";
+import img2 from "../../assets/images/ausstellungen/stockhausen_cartagena_2.jpg";
+import img3 from "../../assets/images/ausstellungen/stockhausen_cartagena_3.jpg";
+import img4 from "../../assets/images/ausstellungen/stockhausen_cartagena_4.jpg";
+import img5 from "../../assets/images/ausstellungen/stockhausen_cartagena_5.jpg";
+import img6 from "../../assets/images/ausstellungen/stockhausen_cartagena_6.jpg";
+import img7 from "../../assets/images/ausstellungen/stockhausen_cartagena_7.jpg";
+import img8 from "../../assets/images/ausstellungen/stockhausen_cartagena_8.jpg";
+import img9 from "../../assets/images/ausstellungen/stockhausen_cartagena_9.jpg";
+import img10 from "../../assets/images/ausstellungen/stockhausen_cartagena_10.jpg";
+import img11 from "../../assets/images/ausstellungen/stockhausen_cartagena_11.jpg";
 
 const Cartagena = () => {
   return (
@@ -59,7 +59,7 @@ const Cartagena = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>Friedemann von Stockhausen, «Present Perfect»</p>
         <p className="mb-2">Lothar Baumgarten, «Aliento»</p>
         <p>Bienal Internacional de Arte Contemporáneo Cartagena de Indias</p>

@@ -79,7 +79,7 @@ const HBK = () => {
         </div>
       </StyledCarousel >
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>Galerie der Hochschule für Bildende Künste Braunschweig</p>
         <p>21. Oktober bis 28. November 2009</p>
       </div>

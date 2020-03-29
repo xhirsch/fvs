@@ -37,8 +37,17 @@ const Biographie = ({ }) => {
         </div>
         <div className="w-4/5 mb-2 xl:mb-0">
           <p>
-            Professur an der Hochschule für Bildende Künste in Braunschweig lebt
-            in Berlin
+            Professur an der Hochschule für Bildende Künste in Braunschweig
+          </p>
+        </div>
+      </div>
+      <div className="flex">
+        <div className="w-24">
+          <p></p>
+        </div>
+        <div className="w-4/5 mb-2 xl:mb-0">
+          <p>
+            lebt in Berlin
           </p>
         </div>
       </div>
@@ -218,6 +227,17 @@ const Biographie = ({ }) => {
       </div>
 
       {/* Ausstellungsbeteiligung */}
+      <div className="flex">
+        <div className="w-24">
+          <p>2020</p>
+        </div>
+        <div className="w-4/5 mb-2 xl:mb-0">
+          <p>
+            «Der Montierte Mensch» Museum Folkwang, Essen (K)
+          </p>
+        </div>
+      </div>
+
       <div className="flex">
         <div className="w-24">
           <p>2019</p>
