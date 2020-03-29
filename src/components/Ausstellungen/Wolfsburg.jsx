@@ -7,7 +7,7 @@ import img3 from "../../assets/images/ausstellungen/stockhausen_wolf_3.png";
 
 const Wolfsburg = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

@@ -29,7 +29,7 @@ import MainzText from "./Texte/MainzText";
 
 const KunsthalleMainz = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

@@ -3,7 +3,7 @@ import React from 'react';
 const GrazText = ({ props }) => {
     return (
         <div className="mt-12 text-left">
-            <div className="m-auto w-2/4 pt-24 pb-24">
+            <div className="m-auto p-12 xl:w-2/4 pt-24 pb-24">
                 <h1 className="font-bold">Steirischer Herbst, Graz</h1>
                 <h1 className="font-bold">23. September – 3. Dezember  2017</h1>
                 <h1 className="font-bold">PROMETHEUS UNBOUND</h1>

@@ -42,7 +42,7 @@ import img38 from "../../assets/images/publikation/stockhausen_augen_38.png";
 
 const Augen = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

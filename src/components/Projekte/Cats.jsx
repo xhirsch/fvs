@@ -15,7 +15,7 @@ import CatsText from "./Texte/CatsText";
 
 const Cats = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

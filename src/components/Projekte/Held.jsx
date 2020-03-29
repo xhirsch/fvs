@@ -19,7 +19,7 @@ import img15 from "../../assets/images/projekte/stockhausen_held_15.png";
 
 const Held = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

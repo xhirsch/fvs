@@ -3,7 +3,7 @@ import React from 'react';
 const CatsText = ({ props }) => {
     return (
         <div className="mt-12 text-left">
-            <div className="m-auto w-2/4 pt-24 pb-24">
+            <div className="m-auto p-12 xl:w-2/4 pt-24 pb-24">
 
                 <h1 className="font-bold">CATSWEB</h1>
                 <p className="mt-12">Für den künstlerischen Entwurf bietet das quadratische Raster des Gebäudes die formale Anknüpfung mit der Struktur eines Gewebes. Weben ist eine der primären Kulturtechniken: Decken, Teppiche, Bekleidung, Behausung – vom blanken Tuch zum komplexen, ornamentalen Gewebe. Hierin verbindet sich die materielle Natur mit der visuellen Formsprache einer Kultur.</p>

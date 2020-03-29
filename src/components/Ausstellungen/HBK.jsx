@@ -20,7 +20,7 @@ import img16 from "../../assets/images/ausstellungen/stockhausen_hbk_16.png";
 
 const HBK = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

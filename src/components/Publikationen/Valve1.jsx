@@ -130,7 +130,7 @@ import img125 from "../../assets/images/publikation/stockhausen_valve1_125.png";
 
 const Valve1 = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

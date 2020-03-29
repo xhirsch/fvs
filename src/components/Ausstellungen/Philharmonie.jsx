@@ -5,7 +5,7 @@ import img1 from "../../assets/images/ausstellungen/stockhausen_philharmonie_1.p
 
 const Philharmonie = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

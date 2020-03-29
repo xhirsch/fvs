@@ -37,7 +37,7 @@ import img33 from "../../assets/images/publikation/stockhausen_haut_33.png";
 
 const Haut = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

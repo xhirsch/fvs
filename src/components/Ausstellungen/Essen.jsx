@@ -23,7 +23,7 @@ import img19 from "../../assets/images/ausstellungen/stockhausen_folkwang_19.png
 
 const Essen = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

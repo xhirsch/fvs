@@ -27,7 +27,7 @@ import HaumText from "./Texte/HaumText";
 
 const Braunschweig = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

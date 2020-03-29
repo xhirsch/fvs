@@ -15,7 +15,7 @@ import img11 from "../../assets/images/ausstellungen/stockhausen_cartagena_11.pn
 
 const Cartagena = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

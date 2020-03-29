@@ -8,7 +8,7 @@ import img4 from "../../assets/images/publikation/stockhausen_ganzeteile_4.png";
 
 const GanzeTeile = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

@@ -86,7 +86,7 @@ import img81 from "../../assets/images/publikation/stockhausen_blicke_81.png";
 
 const Blick = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

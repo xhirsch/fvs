@@ -3,7 +3,7 @@ import React from 'react';
 const MainzText = ({ props }) => {
     return (
         <div className="mt-12 text-left">
-            <div className="m-auto w-2/4 pt-24 pb-24">
+            <div className="m-auto p-12 xl:w-2/4 pt-24 pb-24">
                 <h1 className="font-bold">FORSTER 1754–2015</h1>
                 <h1 className="font-bold">Friedemann von Stockhausen    Augen der Welt</h1>
                 <p className="mt-12">60 Kartons in drei Reihen, mit Nadeln auf der Wand fixiert, fügen sich zu einem Panorama, das sich erst durch den Wechsel der Betrachterposition überschauen lässt. Ein bildhaftes Kontinuum in dem biologische Fragmente, Tier- und Menschengestalt, kristalline und amorphe Strukturen aufeinandertreffen, sich verflechten und überlagern. Die Zeichnung ist nicht das Resultat eines kalkulierten Plans, sondern Ergebnis eines vielschichtigen zeichnerischen Prozesses, in dem sich mehrere Ebenen überlagern, um aus der Summe der Teile ein Ganzes zu bilden. Integriert in diesen Zusammenhang sind vorgehängte Folien, Bildausdrucke und eine tropische Wurzel. Eine Photographie zeigt in Gläsern aufbewahrte Embryonen aus einer zoologischen Sammlung, unentwickeltes Wachstum im Übergang zu einer fast antrophomorphen Gestalt.</p>

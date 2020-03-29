@@ -3,7 +3,7 @@ import React from 'react';
 const HaumText = ({ props }) => {
     return (
         <div className="mt-12 text-left">
-            <div className="m-auto w-2/4 pt-24 pb-24">
+            <div className="m-auto p-12 xl:w-2/4 pt-24 pb-24">
                 <h1 className="font-bold mb-12">Friedemann von Stockhausen. Ägypten – Parade.</h1>
                 <h1 className="font-bold">Zeichnungen und Photographien Ausstellung im Kupferstichkabinett des Herzog Anton Ulrich-Museums</h1>
                 <h1 className="font-bold">11.7. - 1.11.2012</h1>

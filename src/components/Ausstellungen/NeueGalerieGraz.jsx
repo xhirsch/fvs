@@ -1,24 +1,24 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/ausstellungen/stockhausen_graz_1.png";
-import img2 from "../../assets/images/ausstellungen/stockhausen_graz_2.png";
-import img3 from "../../assets/images/ausstellungen/stockhausen_graz_3.png";
-import img4 from "../../assets/images/ausstellungen/stockhausen_graz_4.png";
-import img5 from "../../assets/images/ausstellungen/stockhausen_graz_5.png";
-import img6 from "../../assets/images/ausstellungen/stockhausen_graz_6.png";
-import img7 from "../../assets/images/ausstellungen/stockhausen_graz_7.png";
-import img8 from "../../assets/images/ausstellungen/stockhausen_graz_8.png";
-import img9 from "../../assets/images/ausstellungen/stockhausen_graz_9.png";
-import img10 from "../../assets/images/ausstellungen/stockhausen_graz_10.png";
-import img11 from "../../assets/images/ausstellungen/stockhausen_graz_11.png";
-import img12 from "../../assets/images/ausstellungen/stockhausen_graz_12.png";
-import img13 from "../../assets/images/ausstellungen/stockhausen_graz_13.png";
+import img1 from "../../assets/images/ausstellungen/stockhausen_graz_1.jpg";
+import img2 from "../../assets/images/ausstellungen/stockhausen_graz_2.jpg";
+import img3 from "../../assets/images/ausstellungen/stockhausen_graz_3.jpg";
+import img4 from "../../assets/images/ausstellungen/stockhausen_graz_4.jpg";
+import img5 from "../../assets/images/ausstellungen/stockhausen_graz_5.jpg";
+import img6 from "../../assets/images/ausstellungen/stockhausen_graz_6.jpg";
+import img7 from "../../assets/images/ausstellungen/stockhausen_graz_7.jpg";
+import img8 from "../../assets/images/ausstellungen/stockhausen_graz_8.jpg";
+import img9 from "../../assets/images/ausstellungen/stockhausen_graz_9.jpg";
+import img10 from "../../assets/images/ausstellungen/stockhausen_graz_10.jpg";
+import img11 from "../../assets/images/ausstellungen/stockhausen_graz_11.jpg";
+import img12 from "../../assets/images/ausstellungen/stockhausen_graz_12.jpg";
+import img13 from "../../assets/images/ausstellungen/stockhausen_graz_13.jpg";
 import GrazText from "./Texte/GrazText";
 
 const Graz = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows

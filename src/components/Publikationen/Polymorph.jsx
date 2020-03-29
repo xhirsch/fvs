@@ -26,7 +26,7 @@ import img22 from "../../assets/images/publikation/stockhausen_polymorph_22.png"
 
 const Polymorph = () => {
   return (
-    <div className="h-screen">
+    <div>
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
