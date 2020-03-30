@@ -1,87 +1,87 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/publikation/stockhausen_blicke_1.png";
-import img2 from "../../assets/images/publikation/stockhausen_blicke_2.png";
-import img3 from "../../assets/images/publikation/stockhausen_blicke_3.png";
-import img4 from "../../assets/images/publikation/stockhausen_blicke_4.png";
-import img5 from "../../assets/images/publikation/stockhausen_blicke_5.png";
-import img6 from "../../assets/images/publikation/stockhausen_blicke_6.png";
-import img7 from "../../assets/images/publikation/stockhausen_blicke_7.png";
-import img8 from "../../assets/images/publikation/stockhausen_blicke_8.png";
-import img9 from "../../assets/images/publikation/stockhausen_blicke_9.png";
-import img10 from "../../assets/images/publikation/stockhausen_blicke_10.png";
-import img11 from "../../assets/images/publikation/stockhausen_blicke_11.png";
-import img12 from "../../assets/images/publikation/stockhausen_blicke_12.png";
-import img13 from "../../assets/images/publikation/stockhausen_blicke_13.png";
-import img14 from "../../assets/images/publikation/stockhausen_blicke_14.png";
-import img15 from "../../assets/images/publikation/stockhausen_blicke_15.png";
-import img16 from "../../assets/images/publikation/stockhausen_blicke_16.png";
-import img17 from "../../assets/images/publikation/stockhausen_blicke_17.png";
-import img18 from "../../assets/images/publikation/stockhausen_blicke_18.png";
-import img19 from "../../assets/images/publikation/stockhausen_blicke_19.png";
-import img20 from "../../assets/images/publikation/stockhausen_blicke_20.png";
-import img21 from "../../assets/images/publikation/stockhausen_blicke_21.png";
-import img22 from "../../assets/images/publikation/stockhausen_blicke_22.png";
-import img23 from "../../assets/images/publikation/stockhausen_blicke_23.png";
-import img24 from "../../assets/images/publikation/stockhausen_blicke_24.png";
-import img25 from "../../assets/images/publikation/stockhausen_blicke_25.png";
-import img26 from "../../assets/images/publikation/stockhausen_blicke_26.png";
-import img27 from "../../assets/images/publikation/stockhausen_blicke_27.png";
-import img28 from "../../assets/images/publikation/stockhausen_blicke_28.png";
-import img29 from "../../assets/images/publikation/stockhausen_blicke_29.png";
-import img30 from "../../assets/images/publikation/stockhausen_blicke_30.png";
-import img31 from "../../assets/images/publikation/stockhausen_blicke_31.png";
-import img32 from "../../assets/images/publikation/stockhausen_blicke_32.png";
-import img33 from "../../assets/images/publikation/stockhausen_blicke_33.png";
-import img34 from "../../assets/images/publikation/stockhausen_blicke_34.png";
-import img35 from "../../assets/images/publikation/stockhausen_blicke_35.png";
-import img36 from "../../assets/images/publikation/stockhausen_blicke_36.png";
-import img37 from "../../assets/images/publikation/stockhausen_blicke_37.png";
-import img38 from "../../assets/images/publikation/stockhausen_blicke_38.png";
-import img39 from "../../assets/images/publikation/stockhausen_blicke_39.png";
-import img40 from "../../assets/images/publikation/stockhausen_blicke_40.png";
-import img41 from "../../assets/images/publikation/stockhausen_blicke_41.png";
-import img42 from "../../assets/images/publikation/stockhausen_blicke_42.png";
-import img43 from "../../assets/images/publikation/stockhausen_blicke_43.png";
-import img44 from "../../assets/images/publikation/stockhausen_blicke_44.png";
-import img45 from "../../assets/images/publikation/stockhausen_blicke_45.png";
-import img46 from "../../assets/images/publikation/stockhausen_blicke_46.png";
-import img47 from "../../assets/images/publikation/stockhausen_blicke_47.png";
-import img48 from "../../assets/images/publikation/stockhausen_blicke_48.png";
-import img49 from "../../assets/images/publikation/stockhausen_blicke_49.png";
-import img50 from "../../assets/images/publikation/stockhausen_blicke_50.png";
-import img51 from "../../assets/images/publikation/stockhausen_blicke_51.png";
-import img52 from "../../assets/images/publikation/stockhausen_blicke_52.png";
-import img53 from "../../assets/images/publikation/stockhausen_blicke_53.png";
-import img54 from "../../assets/images/publikation/stockhausen_blicke_54.png";
-import img55 from "../../assets/images/publikation/stockhausen_blicke_55.png";
-import img56 from "../../assets/images/publikation/stockhausen_blicke_56.png";
-import img57 from "../../assets/images/publikation/stockhausen_blicke_57.png";
-import img58 from "../../assets/images/publikation/stockhausen_blicke_58.png";
-import img59 from "../../assets/images/publikation/stockhausen_blicke_59.png";
-import img60 from "../../assets/images/publikation/stockhausen_blicke_60.png";
-import img61 from "../../assets/images/publikation/stockhausen_blicke_61.png";
-import img62 from "../../assets/images/publikation/stockhausen_blicke_62.png";
-import img63 from "../../assets/images/publikation/stockhausen_blicke_63.png";
-import img64 from "../../assets/images/publikation/stockhausen_blicke_64.png";
-import img65 from "../../assets/images/publikation/stockhausen_blicke_65.png";
-import img66 from "../../assets/images/publikation/stockhausen_blicke_66.png";
-import img67 from "../../assets/images/publikation/stockhausen_blicke_67.png";
-import img68 from "../../assets/images/publikation/stockhausen_blicke_68.png";
-import img69 from "../../assets/images/publikation/stockhausen_blicke_69.png";
-import img70 from "../../assets/images/publikation/stockhausen_blicke_70.png";
-import img71 from "../../assets/images/publikation/stockhausen_blicke_71.png";
-import img72 from "../../assets/images/publikation/stockhausen_blicke_72.png";
-import img73 from "../../assets/images/publikation/stockhausen_blicke_73.png";
-import img74 from "../../assets/images/publikation/stockhausen_blicke_74.png";
-import img75 from "../../assets/images/publikation/stockhausen_blicke_75.png";
-import img76 from "../../assets/images/publikation/stockhausen_blicke_76.png";
-import img77 from "../../assets/images/publikation/stockhausen_blicke_77.png";
-import img78 from "../../assets/images/publikation/stockhausen_blicke_78.png";
-import img79 from "../../assets/images/publikation/stockhausen_blicke_79.png";
-import img80 from "../../assets/images/publikation/stockhausen_blicke_80.png";
-import img81 from "../../assets/images/publikation/stockhausen_blicke_81.png";
+import img_cover from "../../assets/images/publikation/stockhausen_blicke_cover.jpg";
+import img1 from "../../assets/images/publikation/stockhausen_blicke_1.jpg";
+import img2 from "../../assets/images/publikation/stockhausen_blicke_2.jpg";
+import img3 from "../../assets/images/publikation/stockhausen_blicke_3.jpg";
+import img4 from "../../assets/images/publikation/stockhausen_blicke_4.jpg";
+import img5 from "../../assets/images/publikation/stockhausen_blicke_5.jpg";
+import img6 from "../../assets/images/publikation/stockhausen_blicke_6.jpg";
+import img7 from "../../assets/images/publikation/stockhausen_blicke_7.jpg";
+import img8 from "../../assets/images/publikation/stockhausen_blicke_8.jpg";
+import img9 from "../../assets/images/publikation/stockhausen_blicke_9.jpg";
+import img10 from "../../assets/images/publikation/stockhausen_blicke_10.jpg";
+import img11 from "../../assets/images/publikation/stockhausen_blicke_11.jpg";
+import img12 from "../../assets/images/publikation/stockhausen_blicke_12.jpg";
+import img13 from "../../assets/images/publikation/stockhausen_blicke_13.jpg";
+import img14 from "../../assets/images/publikation/stockhausen_blicke_14.jpg";
+import img15 from "../../assets/images/publikation/stockhausen_blicke_15.jpg";
+import img16 from "../../assets/images/publikation/stockhausen_blicke_16.jpg";
+import img17 from "../../assets/images/publikation/stockhausen_blicke_17.jpg";
+import img18 from "../../assets/images/publikation/stockhausen_blicke_18.jpg";
+import img19 from "../../assets/images/publikation/stockhausen_blicke_19.jpg";
+import img20 from "../../assets/images/publikation/stockhausen_blicke_20.jpg";
+import img21 from "../../assets/images/publikation/stockhausen_blicke_21.jpg";
+import img22 from "../../assets/images/publikation/stockhausen_blicke_22.jpg";
+import img23 from "../../assets/images/publikation/stockhausen_blicke_23.jpg";
+import img24 from "../../assets/images/publikation/stockhausen_blicke_24.jpg";
+import img25 from "../../assets/images/publikation/stockhausen_blicke_25.jpg";
+import img26 from "../../assets/images/publikation/stockhausen_blicke_26.jpg";
+import img27 from "../../assets/images/publikation/stockhausen_blicke_27.jpg";
+import img28 from "../../assets/images/publikation/stockhausen_blicke_28.jpg";
+import img29 from "../../assets/images/publikation/stockhausen_blicke_29.jpg";
+import img30 from "../../assets/images/publikation/stockhausen_blicke_30.jpg";
+import img31 from "../../assets/images/publikation/stockhausen_blicke_31.jpg";
+import img32 from "../../assets/images/publikation/stockhausen_blicke_32.jpg";
+import img33 from "../../assets/images/publikation/stockhausen_blicke_33.jpg";
+import img34 from "../../assets/images/publikation/stockhausen_blicke_34.jpg";
+import img35 from "../../assets/images/publikation/stockhausen_blicke_35.jpg";
+import img36 from "../../assets/images/publikation/stockhausen_blicke_36.jpg";
+import img37 from "../../assets/images/publikation/stockhausen_blicke_37.jpg";
+import img38 from "../../assets/images/publikation/stockhausen_blicke_38.jpg";
+import img39 from "../../assets/images/publikation/stockhausen_blicke_39.jpg";
+import img40 from "../../assets/images/publikation/stockhausen_blicke_40.jpg";
+import img41 from "../../assets/images/publikation/stockhausen_blicke_41.jpg";
+import img42 from "../../assets/images/publikation/stockhausen_blicke_42.jpg";
+import img43 from "../../assets/images/publikation/stockhausen_blicke_43.jpg";
+import img44 from "../../assets/images/publikation/stockhausen_blicke_44.jpg";
+import img45 from "../../assets/images/publikation/stockhausen_blicke_45.jpg";
+import img46 from "../../assets/images/publikation/stockhausen_blicke_46.jpg";
+import img47 from "../../assets/images/publikation/stockhausen_blicke_47.jpg";
+import img48 from "../../assets/images/publikation/stockhausen_blicke_48.jpg";
+import img49 from "../../assets/images/publikation/stockhausen_blicke_49.jpg";
+import img50 from "../../assets/images/publikation/stockhausen_blicke_50.jpg";
+import img51 from "../../assets/images/publikation/stockhausen_blicke_51.jpg";
+import img52 from "../../assets/images/publikation/stockhausen_blicke_52.jpg";
+import img53 from "../../assets/images/publikation/stockhausen_blicke_53.jpg";
+import img54 from "../../assets/images/publikation/stockhausen_blicke_54.jpg";
+import img55 from "../../assets/images/publikation/stockhausen_blicke_55.jpg";
+import img56 from "../../assets/images/publikation/stockhausen_blicke_56.jpg";
+import img57 from "../../assets/images/publikation/stockhausen_blicke_57.jpg";
+import img58 from "../../assets/images/publikation/stockhausen_blicke_58.jpg";
+import img59 from "../../assets/images/publikation/stockhausen_blicke_59.jpg";
+import img60 from "../../assets/images/publikation/stockhausen_blicke_60.jpg";
+import img61 from "../../assets/images/publikation/stockhausen_blicke_61.jpg";
+import img62 from "../../assets/images/publikation/stockhausen_blicke_62.jpg";
+import img63 from "../../assets/images/publikation/stockhausen_blicke_63.jpg";
+import img64 from "../../assets/images/publikation/stockhausen_blicke_64.jpg";
+import img65 from "../../assets/images/publikation/stockhausen_blicke_65.jpg";
+import img66 from "../../assets/images/publikation/stockhausen_blicke_66.jpg";
+import img67 from "../../assets/images/publikation/stockhausen_blicke_67.jpg";
+import img68 from "../../assets/images/publikation/stockhausen_blicke_68.jpg";
+import img69 from "../../assets/images/publikation/stockhausen_blicke_69.jpg";
+import img70 from "../../assets/images/publikation/stockhausen_blicke_70.jpg";
+import img71 from "../../assets/images/publikation/stockhausen_blicke_71.jpg";
+import img72 from "../../assets/images/publikation/stockhausen_blicke_72.jpg";
+import img73 from "../../assets/images/publikation/stockhausen_blicke_73.jpg";
+import img74 from "../../assets/images/publikation/stockhausen_blicke_74.jpg";
+import img75 from "../../assets/images/publikation/stockhausen_blicke_75.jpg";
+import img76 from "../../assets/images/publikation/stockhausen_blicke_76.jpg";
+import img77 from "../../assets/images/publikation/stockhausen_blicke_77.jpg";
+import img78 from "../../assets/images/publikation/stockhausen_blicke_78.jpg";
+import img79 from "../../assets/images/publikation/stockhausen_blicke_79.jpg";
+import img_back from "../../assets/images/publikation/stockhausen_blicke_back.jpg";
 
 
 const Blick = () => {
@@ -95,6 +95,9 @@ const Blick = () => {
         showIndicators={false}
         emulateTouch
       >
+        <div>
+          <img alt="" src={img_cover} />
+        </div >
         <div>
           <img alt="" src={img1} />
         </div >
@@ -333,10 +336,7 @@ const Blick = () => {
           <img alt="" src={img79} />
         </div>
         <div>
-          <img alt="" src={img80} />
-        </div>
-        <div>
-          <img alt="" src={img81} />
+          <img alt="" src={img_back} />
         </div>
       </StyledCarousel >
 

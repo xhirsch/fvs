@@ -1,7 +1,7 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/ausstellungen/stockhausen_philharmonie_1.png";
+import img1 from "../../assets/images/ausstellungen/stockhausen_philharmonie_1.jpg";
 
 const Philharmonie = () => {
   return (

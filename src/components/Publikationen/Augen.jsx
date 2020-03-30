@@ -1,44 +1,44 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/publikation/stockhausen_augen_1.png";
-import img2 from "../../assets/images/publikation/stockhausen_augen_2.png";
-import img3 from "../../assets/images/publikation/stockhausen_augen_3.png";
-import img4 from "../../assets/images/publikation/stockhausen_augen_4.png";
-import img5 from "../../assets/images/publikation/stockhausen_augen_5.png";
-import img6 from "../../assets/images/publikation/stockhausen_augen_6.png";
-import img7 from "../../assets/images/publikation/stockhausen_augen_7.png";
-import img8 from "../../assets/images/publikation/stockhausen_augen_8.png";
-import img9 from "../../assets/images/publikation/stockhausen_augen_9.png";
-import img10 from "../../assets/images/publikation/stockhausen_augen_10.png";
-import img11 from "../../assets/images/publikation/stockhausen_augen_11.png";
-import img12 from "../../assets/images/publikation/stockhausen_augen_12.png";
-import img13 from "../../assets/images/publikation/stockhausen_augen_13.png";
-import img14 from "../../assets/images/publikation/stockhausen_augen_14.png";
-import img15 from "../../assets/images/publikation/stockhausen_augen_15.png";
-import img16 from "../../assets/images/publikation/stockhausen_augen_16.png";
-import img17 from "../../assets/images/publikation/stockhausen_augen_17.png";
-import img18 from "../../assets/images/publikation/stockhausen_augen_18.png";
-import img19 from "../../assets/images/publikation/stockhausen_augen_19.png";
-import img20 from "../../assets/images/publikation/stockhausen_augen_20.png";
-import img21 from "../../assets/images/publikation/stockhausen_augen_21.png";
-import img22 from "../../assets/images/publikation/stockhausen_augen_22.png";
-import img23 from "../../assets/images/publikation/stockhausen_augen_23.png";
-import img24 from "../../assets/images/publikation/stockhausen_augen_24.png";
-import img25 from "../../assets/images/publikation/stockhausen_augen_25.png";
-import img26 from "../../assets/images/publikation/stockhausen_augen_26.png";
-import img27 from "../../assets/images/publikation/stockhausen_augen_27.png";
-import img28 from "../../assets/images/publikation/stockhausen_augen_28.png";
-import img29 from "../../assets/images/publikation/stockhausen_augen_29.png";
-import img30 from "../../assets/images/publikation/stockhausen_augen_30.png";
-import img31 from "../../assets/images/publikation/stockhausen_augen_31.png";
-import img32 from "../../assets/images/publikation/stockhausen_augen_32.png";
-import img33 from "../../assets/images/publikation/stockhausen_augen_33.png";
-import img34 from "../../assets/images/publikation/stockhausen_augen_34.png";
-import img35 from "../../assets/images/publikation/stockhausen_augen_35.png";
-import img36 from "../../assets/images/publikation/stockhausen_augen_36.png";
-import img37 from "../../assets/images/publikation/stockhausen_augen_37.png";
-import img38 from "../../assets/images/publikation/stockhausen_augen_38.png";
+import img_cover from "../../assets/images/publikation/stockhausen_augen_cover.jpg";
+import img1 from "../../assets/images/publikation/stockhausen_augen_1.jpg";
+import img2 from "../../assets/images/publikation/stockhausen_augen_2.jpg";
+import img3 from "../../assets/images/publikation/stockhausen_augen_3.jpg";
+import img4 from "../../assets/images/publikation/stockhausen_augen_4.jpg";
+import img5 from "../../assets/images/publikation/stockhausen_augen_5.jpg";
+import img6 from "../../assets/images/publikation/stockhausen_augen_6.jpg";
+import img7 from "../../assets/images/publikation/stockhausen_augen_7.jpg";
+import img8 from "../../assets/images/publikation/stockhausen_augen_8.jpg";
+import img9 from "../../assets/images/publikation/stockhausen_augen_9.jpg";
+import img10 from "../../assets/images/publikation/stockhausen_augen_10.jpg";
+import img11 from "../../assets/images/publikation/stockhausen_augen_11.jpg";
+import img12 from "../../assets/images/publikation/stockhausen_augen_12.jpg";
+import img13 from "../../assets/images/publikation/stockhausen_augen_13.jpg";
+import img14 from "../../assets/images/publikation/stockhausen_augen_14.jpg";
+import img15 from "../../assets/images/publikation/stockhausen_augen_15.jpg";
+import img16 from "../../assets/images/publikation/stockhausen_augen_16.jpg";
+import img17 from "../../assets/images/publikation/stockhausen_augen_17.jpg";
+import img18 from "../../assets/images/publikation/stockhausen_augen_18.jpg";
+import img19 from "../../assets/images/publikation/stockhausen_augen_19.jpg";
+import img20 from "../../assets/images/publikation/stockhausen_augen_20.jpg";
+import img21 from "../../assets/images/publikation/stockhausen_augen_21.jpg";
+import img22 from "../../assets/images/publikation/stockhausen_augen_22.jpg";
+import img23 from "../../assets/images/publikation/stockhausen_augen_23.jpg";
+import img24 from "../../assets/images/publikation/stockhausen_augen_24.jpg";
+import img25 from "../../assets/images/publikation/stockhausen_augen_25.jpg";
+import img26 from "../../assets/images/publikation/stockhausen_augen_26.jpg";
+import img27 from "../../assets/images/publikation/stockhausen_augen_27.jpg";
+import img28 from "../../assets/images/publikation/stockhausen_augen_28.jpg";
+import img29 from "../../assets/images/publikation/stockhausen_augen_29.jpg";
+import img30 from "../../assets/images/publikation/stockhausen_augen_30.jpg";
+import img31 from "../../assets/images/publikation/stockhausen_augen_31.jpg";
+import img32 from "../../assets/images/publikation/stockhausen_augen_32.jpg";
+import img33 from "../../assets/images/publikation/stockhausen_augen_33.jpg";
+import img34 from "../../assets/images/publikation/stockhausen_augen_34.jpg";
+import img35 from "../../assets/images/publikation/stockhausen_augen_35.jpg";
+import img36 from "../../assets/images/publikation/stockhausen_augen_36.jpg";
+import img_back from "../../assets/images/publikation/stockhausen_augen_back.jpg";
 
 const Augen = () => {
   return (
@@ -51,6 +51,9 @@ const Augen = () => {
         showIndicators={false}
         emulateTouch
       >
+        <div>
+          <img alt="" src={img_cover} />
+        </div >
         <div>
           <img alt="" src={img1} />
         </div >
@@ -160,10 +163,7 @@ const Augen = () => {
           <img alt="" src={img36} />
         </div>
         <div>
-          <img alt="" src={img37} />
-        </div>
-        <div>
-          <img alt="" src={img38} />
+          <img alt="" src={img_back} />
         </div>
       </StyledCarousel >
 

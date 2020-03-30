@@ -1,22 +1,21 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/ausstellungen/stockhausen_hbk_1.png";
-import img2 from "../../assets/images/ausstellungen/stockhausen_hbk_2.png";
-import img3 from "../../assets/images/ausstellungen/stockhausen_hbk_3.png";
-import img4 from "../../assets/images/ausstellungen/stockhausen_hbk_4.png";
-import img5 from "../../assets/images/ausstellungen/stockhausen_hbk_5.png";
-import img6 from "../../assets/images/ausstellungen/stockhausen_hbk_6.png";
-import img7 from "../../assets/images/ausstellungen/stockhausen_hbk_7.png";
-import img8 from "../../assets/images/ausstellungen/stockhausen_hbk_8.png";
-import img9 from "../../assets/images/ausstellungen/stockhausen_hbk_9.png";
-import img10 from "../../assets/images/ausstellungen/stockhausen_hbk_10.png";
-import img11 from "../../assets/images/ausstellungen/stockhausen_hbk_11.png";
-import img12 from "../../assets/images/ausstellungen/stockhausen_hbk_12.png";
-import img13 from "../../assets/images/ausstellungen/stockhausen_hbk_13.png";
-import img14 from "../../assets/images/ausstellungen/stockhausen_hbk_14.png";
-import img15 from "../../assets/images/ausstellungen/stockhausen_hbk_15.png";
-import img16 from "../../assets/images/ausstellungen/stockhausen_hbk_16.png";
+import img1 from "../../assets/images/ausstellungen/stockhausen_hbk_01.jpg";
+import img2 from "../../assets/images/ausstellungen/stockhausen_hbk_02.jpg";
+import img3 from "../../assets/images/ausstellungen/stockhausen_hbk_03.jpg";
+import img4 from "../../assets/images/ausstellungen/stockhausen_hbk_04.jpg";
+import img5 from "../../assets/images/ausstellungen/stockhausen_hbk_05.jpg";
+import img6 from "../../assets/images/ausstellungen/stockhausen_hbk_06.jpg";
+import img7 from "../../assets/images/ausstellungen/stockhausen_hbk_07.jpg";
+import img8 from "../../assets/images/ausstellungen/stockhausen_hbk_08.jpg";
+import img9 from "../../assets/images/ausstellungen/stockhausen_hbk_09.jpg";
+import img10 from "../../assets/images/ausstellungen/stockhausen_hbk_10.jpg";
+import img11 from "../../assets/images/ausstellungen/stockhausen_hbk_11.jpg";
+import img12 from "../../assets/images/ausstellungen/stockhausen_hbk_12.jpg";
+import img13 from "../../assets/images/ausstellungen/stockhausen_hbk_13.jpg";
+import img14 from "../../assets/images/ausstellungen/stockhausen_hbk_14.jpg";
+import img15 from "../../assets/images/ausstellungen/stockhausen_hbk_15.jpg";
 
 const HBK = () => {
   return (
@@ -73,9 +72,6 @@ const HBK = () => {
         </div>
         <div>
           <img alt="" src={img15} />
-        </div>
-        <div>
-          <img alt="" src={img16} />
         </div>
       </StyledCarousel >
 
