@@ -19,7 +19,6 @@ import img15 from "../../assets/images/ausstellungen/stockhausen_folkwang_15.jpg
 import img16 from "../../assets/images/ausstellungen/stockhausen_folkwang_16.jpg";
 import img17 from "../../assets/images/ausstellungen/stockhausen_folkwang_17.jpg";
 import img18 from "../../assets/images/ausstellungen/stockhausen_folkwang_18.jpg";
-import img19 from "../../assets/images/ausstellungen/stockhausen_folkwang_19.jpg";
 
 const Essen = () => {
   return (
@@ -85,9 +84,6 @@ const Essen = () => {
         </div>
         <div>
           <img alt="" src={img18} />
-        </div>
-        <div>
-          <img alt="" src={img19} />
         </div>
       </StyledCarousel >
 

@@ -14,6 +14,7 @@ import img10 from "../../assets/images/ausstellungen/stockhausen_graz_10.jpg";
 import img11 from "../../assets/images/ausstellungen/stockhausen_graz_11.jpg";
 import img12 from "../../assets/images/ausstellungen/stockhausen_graz_12.jpg";
 import img13 from "../../assets/images/ausstellungen/stockhausen_graz_13.jpg";
+
 import GrazText from "./Texte/GrazText";
 
 const Graz = () => {
@@ -27,10 +28,11 @@ const Graz = () => {
         showIndicators={false}
         emulateTouch
         dynamicHeight
+        className="presentation-mode"
       >
         <div>
           <img alt="" src={img1} />
-        </div >
+        </div>
         <div>
           <img alt="" src={img2} />
         </div>
