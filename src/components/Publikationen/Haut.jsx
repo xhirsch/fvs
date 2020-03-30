@@ -1,39 +1,39 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/publikation/stockhausen_haut_1.png";
-import img2 from "../../assets/images/publikation/stockhausen_haut_2.png";
-import img3 from "../../assets/images/publikation/stockhausen_haut_3.png";
-import img4 from "../../assets/images/publikation/stockhausen_haut_4.png";
-import img5 from "../../assets/images/publikation/stockhausen_haut_5.png";
-import img6 from "../../assets/images/publikation/stockhausen_haut_6.png";
-import img7 from "../../assets/images/publikation/stockhausen_haut_7.png";
-import img8 from "../../assets/images/publikation/stockhausen_haut_8.png";
-import img9 from "../../assets/images/publikation/stockhausen_haut_9.png";
-import img10 from "../../assets/images/publikation/stockhausen_haut_10.png";
-import img11 from "../../assets/images/publikation/stockhausen_haut_11.png";
-import img12 from "../../assets/images/publikation/stockhausen_haut_12.png";
-import img13 from "../../assets/images/publikation/stockhausen_haut_13.png";
-import img14 from "../../assets/images/publikation/stockhausen_haut_14.png";
-import img15 from "../../assets/images/publikation/stockhausen_haut_15.png";
-import img16 from "../../assets/images/publikation/stockhausen_haut_16.png";
-import img17 from "../../assets/images/publikation/stockhausen_haut_17.png";
-import img18 from "../../assets/images/publikation/stockhausen_haut_18.png";
-import img19 from "../../assets/images/publikation/stockhausen_haut_19.png";
-import img20 from "../../assets/images/publikation/stockhausen_haut_20.png";
-import img21 from "../../assets/images/publikation/stockhausen_haut_21.png";
-import img22 from "../../assets/images/publikation/stockhausen_haut_22.png";
-import img23 from "../../assets/images/publikation/stockhausen_haut_23.png";
-import img24 from "../../assets/images/publikation/stockhausen_haut_24.png";
-import img25 from "../../assets/images/publikation/stockhausen_haut_25.png";
-import img26 from "../../assets/images/publikation/stockhausen_haut_26.png";
-import img27 from "../../assets/images/publikation/stockhausen_haut_27.png";
-import img28 from "../../assets/images/publikation/stockhausen_haut_28.png";
-import img29 from "../../assets/images/publikation/stockhausen_haut_29.png";
-import img30 from "../../assets/images/publikation/stockhausen_haut_30.png";
-import img31 from "../../assets/images/publikation/stockhausen_haut_31.png";
-import img32 from "../../assets/images/publikation/stockhausen_haut_32.png";
-import img33 from "../../assets/images/publikation/stockhausen_haut_33.png";
+import img_cover from "../../assets/images/publikation/stockhausen_haut_cover.jpg";
+import img1 from "../../assets/images/publikation/stockhausen_haut_1.jpg";
+import img2 from "../../assets/images/publikation/stockhausen_haut_2.jpg";
+import img3 from "../../assets/images/publikation/stockhausen_haut_3.jpg";
+import img4 from "../../assets/images/publikation/stockhausen_haut_4.jpg";
+import img5 from "../../assets/images/publikation/stockhausen_haut_5.jpg";
+import img6 from "../../assets/images/publikation/stockhausen_haut_6.jpg";
+import img7 from "../../assets/images/publikation/stockhausen_haut_7.jpg";
+import img8 from "../../assets/images/publikation/stockhausen_haut_8.jpg";
+import img9 from "../../assets/images/publikation/stockhausen_haut_9.jpg";
+import img10 from "../../assets/images/publikation/stockhausen_haut_10.jpg";
+import img11 from "../../assets/images/publikation/stockhausen_haut_11.jpg";
+import img12 from "../../assets/images/publikation/stockhausen_haut_12.jpg";
+import img13 from "../../assets/images/publikation/stockhausen_haut_13.jpg";
+import img14 from "../../assets/images/publikation/stockhausen_haut_14.jpg";
+import img15 from "../../assets/images/publikation/stockhausen_haut_15.jpg";
+import img16 from "../../assets/images/publikation/stockhausen_haut_16.jpg";
+import img17 from "../../assets/images/publikation/stockhausen_haut_17.jpg";
+import img18 from "../../assets/images/publikation/stockhausen_haut_18.jpg";
+import img19 from "../../assets/images/publikation/stockhausen_haut_19.jpg";
+import img20 from "../../assets/images/publikation/stockhausen_haut_20.jpg";
+import img21 from "../../assets/images/publikation/stockhausen_haut_21.jpg";
+import img22 from "../../assets/images/publikation/stockhausen_haut_22.jpg";
+import img23 from "../../assets/images/publikation/stockhausen_haut_23.jpg";
+import img24 from "../../assets/images/publikation/stockhausen_haut_24.jpg";
+import img25 from "../../assets/images/publikation/stockhausen_haut_25.jpg";
+import img26 from "../../assets/images/publikation/stockhausen_haut_26.jpg";
+import img27 from "../../assets/images/publikation/stockhausen_haut_27.jpg";
+import img28 from "../../assets/images/publikation/stockhausen_haut_28.jpg";
+import img29 from "../../assets/images/publikation/stockhausen_haut_29.jpg";
+import img30 from "../../assets/images/publikation/stockhausen_haut_30.jpg";
+import img31 from "../../assets/images/publikation/stockhausen_haut_31.jpg";
+import img_back from "../../assets/images/publikation/stockhausen_haut_back.jpg";
 
 const Haut = () => {
   return (
@@ -46,6 +46,9 @@ const Haut = () => {
         showIndicators={false}
         emulateTouch
       >
+        <div>
+          <img alt="" src={img_cover} />
+        </div >
         <div>
           <img alt="" src={img1} />
         </div >
@@ -140,10 +143,7 @@ const Haut = () => {
           <img alt="" src={img31} />
         </div>
         <div>
-          <img alt="" src={img32} />
-        </div>
-        <div>
-          <img alt="" src={img33} />
+          <img alt="" src={img_back} />
         </div>
       </StyledCarousel >
 

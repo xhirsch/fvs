@@ -1,28 +1,28 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/publikation/stockhausen_polymorph_1.png";
-import img2 from "../../assets/images/publikation/stockhausen_polymorph_2.png";
-import img3 from "../../assets/images/publikation/stockhausen_polymorph_3.png";
-import img4 from "../../assets/images/publikation/stockhausen_polymorph_4.png";
-import img5 from "../../assets/images/publikation/stockhausen_polymorph_5.png";
-import img6 from "../../assets/images/publikation/stockhausen_polymorph_6.png";
-import img7 from "../../assets/images/publikation/stockhausen_polymorph_7.png";
-import img8 from "../../assets/images/publikation/stockhausen_polymorph_8.png";
-import img9 from "../../assets/images/publikation/stockhausen_polymorph_9.png";
-import img10 from "../../assets/images/publikation/stockhausen_polymorph_10.png";
-import img11 from "../../assets/images/publikation/stockhausen_polymorph_11.png";
-import img12 from "../../assets/images/publikation/stockhausen_polymorph_12.png";
-import img13 from "../../assets/images/publikation/stockhausen_polymorph_13.png";
-import img14 from "../../assets/images/publikation/stockhausen_polymorph_14.png";
-import img15 from "../../assets/images/publikation/stockhausen_polymorph_15.png";
-import img16 from "../../assets/images/publikation/stockhausen_polymorph_16.png";
-import img17 from "../../assets/images/publikation/stockhausen_polymorph_17.png";
-import img18 from "../../assets/images/publikation/stockhausen_polymorph_18.png";
-import img19 from "../../assets/images/publikation/stockhausen_polymorph_19.png";
-import img20 from "../../assets/images/publikation/stockhausen_polymorph_20.png";
-import img21 from "../../assets/images/publikation/stockhausen_polymorph_21.png";
-import img22 from "../../assets/images/publikation/stockhausen_polymorph_22.png";
+import img_cover from "../../assets/images/publikation/stockhausen_polymorph_cover.jpg";
+import img1 from "../../assets/images/publikation/stockhausen_polymorph_1.jpg";
+import img2 from "../../assets/images/publikation/stockhausen_polymorph_2.jpg";
+import img3 from "../../assets/images/publikation/stockhausen_polymorph_3.jpg";
+import img4 from "../../assets/images/publikation/stockhausen_polymorph_4.jpg";
+import img5 from "../../assets/images/publikation/stockhausen_polymorph_5.jpg";
+import img6 from "../../assets/images/publikation/stockhausen_polymorph_6.jpg";
+import img7 from "../../assets/images/publikation/stockhausen_polymorph_7.jpg";
+import img8 from "../../assets/images/publikation/stockhausen_polymorph_8.jpg";
+import img9 from "../../assets/images/publikation/stockhausen_polymorph_9.jpg";
+import img10 from "../../assets/images/publikation/stockhausen_polymorph_10.jpg";
+import img11 from "../../assets/images/publikation/stockhausen_polymorph_11.jpg";
+import img12 from "../../assets/images/publikation/stockhausen_polymorph_12.jpg";
+import img13 from "../../assets/images/publikation/stockhausen_polymorph_13.jpg";
+import img14 from "../../assets/images/publikation/stockhausen_polymorph_14.jpg";
+import img15 from "../../assets/images/publikation/stockhausen_polymorph_15.jpg";
+import img16 from "../../assets/images/publikation/stockhausen_polymorph_16.jpg";
+import img17 from "../../assets/images/publikation/stockhausen_polymorph_17.jpg";
+import img18 from "../../assets/images/publikation/stockhausen_polymorph_18.jpg";
+import img19 from "../../assets/images/publikation/stockhausen_polymorph_19.jpg";
+import img20 from "../../assets/images/publikation/stockhausen_polymorph_20.jpg";
+import img_back from "../../assets/images/publikation/stockhausen_polymorph_back.jpg";
 
 const Polymorph = () => {
   return (
@@ -35,6 +35,9 @@ const Polymorph = () => {
         showIndicators={false}
         emulateTouch
       >
+        <div>
+          <img alt="" src={img_cover} />
+        </div >
         <div>
           <img alt="" src={img1} />
         </div >
@@ -96,10 +99,7 @@ const Polymorph = () => {
           <img alt="" src={img20} />
         </div>
         <div>
-          <img alt="" src={img21} />
-        </div>
-        <div>
-          <img alt="" src={img22} />
+          <img alt="" src={img_back} />
         </div>
       </StyledCarousel >
 
