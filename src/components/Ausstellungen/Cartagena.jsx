@@ -26,7 +26,7 @@ const Cartagena = () => {
       >
         <div>
           <img alt="" src={img1} />
-        </div >
+        </div>
         <div>
           <img alt="" src={img2} />
         </div>
@@ -57,7 +57,7 @@ const Cartagena = () => {
         <div>
           <img alt="" src={img11} />
         </div>
-      </StyledCarousel >
+      </StyledCarousel>
 
       <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>Friedemann von Stockhausen, «Present Perfect»</p>
