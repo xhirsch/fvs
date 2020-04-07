@@ -16,8 +16,8 @@ const Philharmonie = () => {
       >
         <div>
           <img alt="" src={img1} />
-        </div >
-      </StyledCarousel >
+        </div>
+      </StyledCarousel>
 
       <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p className="mb-2">«Emanuel Feuermann»</p>

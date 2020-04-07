@@ -18,14 +18,14 @@ const Wolfsburg = () => {
       >
         <div>
           <img alt="" src={img1} />
-        </div >
+        </div>
         <div>
           <img alt="" src={img2} />
         </div>
         <div>
           <img alt="" src={img3} />
         </div>
-      </StyledCarousel >
+      </StyledCarousel>
 
       <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p className="mb-2">«Interface»</p>

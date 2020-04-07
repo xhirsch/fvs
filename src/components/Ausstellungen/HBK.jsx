@@ -30,7 +30,7 @@ const HBK = () => {
       >
         <div>
           <img alt="" src={img1} />
-        </div >
+        </div>
         <div>
           <img alt="" src={img2} />
         </div>
@@ -73,7 +73,7 @@ const HBK = () => {
         <div>
           <img alt="" src={img15} />
         </div>
-      </StyledCarousel >
+      </StyledCarousel>
 
       <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p>Galerie der Hochschule für Bildende Künste Braunschweig</p>

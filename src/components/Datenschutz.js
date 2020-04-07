@@ -289,7 +289,7 @@ const Datenschutz = ({ }) => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 

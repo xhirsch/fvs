@@ -33,7 +33,7 @@ const Essen = () => {
       >
         <div>
           <img alt="" src={img1} />
-        </div >
+        </div>
         <div>
           <img alt="" src={img2} />
         </div>
@@ -85,7 +85,7 @@ const Essen = () => {
         <div>
           <img alt="" src={img18} />
         </div>
-      </StyledCarousel >
+      </StyledCarousel>
 
       <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
         <p className="mb-2">«Ganze Teile»</p>

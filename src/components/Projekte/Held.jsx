@@ -30,7 +30,7 @@ const Held = () => {
       >
         <div>
           <img alt="" src={img1} />
-        </div >
+        </div>
         <div>
           <img alt="" src={img2} />
         </div>
@@ -73,7 +73,7 @@ const Held = () => {
         <div>
           <img alt="" src={img15} />
         </div>
-      </StyledCarousel >
+      </StyledCarousel>
     </div>
   );
 };
