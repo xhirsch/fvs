@@ -33,8 +33,8 @@ const KunsthalleMainz = () => {
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={true}
-        showStatus={false}
+        showThumbs={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
         dynamicHeight
@@ -116,7 +116,7 @@ const KunsthalleMainz = () => {
         </div>
       </StyledCarousel>
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
         <p>Friedemann von Stockhausen, «Augen der Welt», 2015</p>
         <p className="mb-2">Forster 1754 – 2015, Kunsthalle Mainz</p>
         <p>Lothar Baumgarten, Camille Henrot, Friedemann von Stockhausen</p>

@@ -47,7 +47,7 @@ const Augen = () => {
         infiniteLoop
         useKeyboardArrows
         showThumbs={true}
-        showStatus={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
       >

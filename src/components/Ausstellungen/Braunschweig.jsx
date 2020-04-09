@@ -31,8 +31,8 @@ const Braunschweig = () => {
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={true}
-        showStatus={false}
+        showThumbs={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
         dynamicHeight
@@ -108,7 +108,7 @@ const Braunschweig = () => {
         </div>
       </StyledCarousel>
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
         <p>Herzog Anton Ulrich-Museum, Braunschweig</p>
         <p className="mb-2">Kupferstichkabinett</p>
         <p>2012, Kohle, 14 Zeichnungen, je 104 x 77 cm</p>

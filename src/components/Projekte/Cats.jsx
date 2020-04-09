@@ -19,8 +19,8 @@ const Cats = () => {
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={true}
-        showStatus={false}
+        showThumbs={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
         dynamicHeight
@@ -60,7 +60,7 @@ const Cats = () => {
         </div>
       </StyledCarousel>
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
         <p>Friedemann von Stockhausen, «CATSweb», 2018</p>
         <p className="mb-2">Kunst am Bau – Bodengestaltung, Heidelberg</p>
         <p>Universität Heidelberg, Centrum für Asienwissenschaften und Transkulturelle Studien</p>

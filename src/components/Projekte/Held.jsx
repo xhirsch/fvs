@@ -23,8 +23,8 @@ const Held = () => {
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={true}
-        showStatus={false}
+        showThumbs={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
       >

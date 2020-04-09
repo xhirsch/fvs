@@ -19,8 +19,8 @@ const Cartagena = () => {
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={true}
-        showStatus={false}
+        showThumbs={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
       >
@@ -59,7 +59,7 @@ const Cartagena = () => {
         </div>
       </StyledCarousel>
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
         <p>Friedemann von Stockhausen, «Present Perfect»</p>
         <p className="mb-2">Lothar Baumgarten, «Aliento»</p>
         <p>Bienal Internacional de Arte Contemporáneo Cartagena de Indias</p>
