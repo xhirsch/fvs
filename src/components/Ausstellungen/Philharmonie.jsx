@@ -9,8 +9,8 @@ const Philharmonie = () => {
       <StyledCarousel
         infiniteLoop
         useKeyboardArrows
-        showThumbs={true}
-        showStatus={false}
+        showThumbs={false}
+        showStatus={true}
         showIndicators={false}
         emulateTouch
       >
@@ -19,7 +19,7 @@ const Philharmonie = () => {
         </div>
       </StyledCarousel>
 
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">
+      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
         <p className="mb-2">«Emanuel Feuermann»</p>
         <p>Foyer Kammermusiksaal,</p>
         <p>Philharmonie Berlin 2006</p>

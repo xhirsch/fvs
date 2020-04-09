@@ -166,10 +166,9 @@
     position: relative;
     text-align: center; }
     .carousel .slide img {
-      width: 85%;
-      height: 700px;
+      width: 75%;
       object-fit: contain;
-      vertical-align: top;
+      vertical-align: center;
       border: 0; }
     .carousel .slide iframe {
       display: inline-block;
@@ -238,14 +237,32 @@
 	BREAKPOINT WIDTHS
 ********************************************/
 
-@media (min-width: 576px) { 
+@media only screen and (max-width: 600px) { 
   .carousel .slide img {
     height: 600px;
    }
  }
 
-@media (min-width: 1400px) { 
+ @media only screen and (min-width: 600px) { 
   .carousel .slide img {
-    height: 850px;
+    height: 650px;
+   }
+ }
+
+ @media only screen and (min-width: 768px) { 
+  .carousel .slide img {
+    height: 700px;
+   }
+ }
+
+ @media only screen and (min-width: 992px) { 
+  .carousel .slide img {
+    height: 800px;
+   }
+ }
+
+ @media only screen and (min-width: 1200px) { 
+  .carousel .slide img {
+    height: 800px;
    }
  }
