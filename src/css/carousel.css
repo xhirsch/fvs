@@ -251,18 +251,18 @@
 
  @media only screen and (min-width: 768px) { 
   .carousel .slide img {
-    height: 700px;
+    height: 650px;
    }
  }
 
  @media only screen and (min-width: 992px) { 
   .carousel .slide img {
-    height: 800px;
+    height: 650px;
    }
  }
 
  @media only screen and (min-width: 1200px) { 
   .carousel .slide img {
-    height: 800px;
+    height: 650px;
    }
  }
