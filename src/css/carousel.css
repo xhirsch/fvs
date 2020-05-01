@@ -245,24 +245,24 @@
 
  @media only screen and (min-width: 600px) { 
   .carousel .slide img {
-    height: 650px;
+    height: 600px;
    }
  }
 
  @media only screen and (min-width: 768px) { 
   .carousel .slide img {
-    height: 650px;
+    height: 600px;
    }
  }
 
  @media only screen and (min-width: 992px) { 
   .carousel .slide img {
-    height: 650px;
+    height: 600px;
    }
  }
 
  @media only screen and (min-width: 1200px) { 
   .carousel .slide img {
-    height: 650px;
+    height: 600px;
    }
  }

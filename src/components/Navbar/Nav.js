@@ -8,7 +8,7 @@ const Nav = ({ open, setOpen }) => {
   return (
     <nav className="z-50 w-full fixed bg-gray-100">
       {/* schwarzer Balken top screen */}
-      <div className="bg-black h-2"></div>
+      {/*<div className="bg-black h-2"></div>*/}
       {/* Navbar*/}
       <div className="flex items-center font-bold h-10">
         {/* Burger */}
