@@ -1,5 +1,6 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
+import "../../css/carousel.css";
 
 import img1 from "../../assets/images/ausstellungen/stockhausen_graz_1.jpg";
 import img2 from "../../assets/images/ausstellungen/stockhausen_graz_2.jpg";
@@ -27,11 +28,15 @@ const Graz = () => {
         showStatus={true}
         showIndicators={false}
         emulateTouch
-        dynamicHeight
-        className="presentation-mode"
       >
-        <div>
+        <div>          
           <img alt="" src={img1} />
+          <div className="absolute bottom-0 text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:mb-16 lg:pl-12 pt-8">
+          <p>Friedemann von Stockhausen, «Sacrificial parts», 2017</p>
+          <p className="mb-2">Prometheus Unbound - Der entfesselte Prometheus, Neuen Galerie Graz</p>
+          <p>Lothar Baumgarten, Jonathas de Andrade, Clemens von Wedemeyer, Yervant Gianikian + Angela Ricci Lucchi, Aimèe Zito Lema</p>
+          <p>23. September 2017 – 03.Dezember 2017</p>
+          </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -69,17 +74,10 @@ const Graz = () => {
         <div>
           <img alt="" src={img13} />
         </div>
-        <div>
+        <div className="text">
           <GrazText />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p>Friedemann von Stockhausen, «Sacrificial parts», 2017</p>
-        <p className="mb-2">Prometheus Unbound - Der entfesselte Prometheus, Neuen Galerie Graz</p>
-        <p>Lothar Baumgarten, Jonathas de Andrade, Clemens von Wedemeyer, Yervant Gianikian + Angela Ricci Lucchi, Aimèe Zito Lema</p>
-        <p>23. September 2017 – 03.Dezember 2017</p>
-      </div>
     </div>
   );
 };
