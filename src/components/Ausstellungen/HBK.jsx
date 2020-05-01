@@ -30,6 +30,10 @@ const HBK = () => {
       >
         <div>
           <img alt="" src={img1} />
+          <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
+          <p>Galerie der Hochschule für Bildende Künste Braunschweig</p>
+          <p>21. Oktober bis 28. November 2009</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -74,11 +78,6 @@ const HBK = () => {
           <img alt="" src={img15} />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p>Galerie der Hochschule für Bildende Künste Braunschweig</p>
-        <p>21. Oktober bis 28. November 2009</p>
-      </div>
     </div>
   );
 };

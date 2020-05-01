@@ -26,6 +26,12 @@ const Cartagena = () => {
       >
         <div>
           <img alt="" src={img1} />
+          <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
+          <p>Friedemann von Stockhausen, «Present Perfect»</p>
+          <p className="mb-2">Lothar Baumgarten, «Aliento»</p>
+          <p>Bienal Internacional de Arte Contemporáneo Cartagena de Indias</p>
+          <p>7. Februar - 7. April 2014</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -58,13 +64,6 @@ const Cartagena = () => {
           <img alt="" src={img11} />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p>Friedemann von Stockhausen, «Present Perfect»</p>
-        <p className="mb-2">Lothar Baumgarten, «Aliento»</p>
-        <p>Bienal Internacional de Arte Contemporáneo Cartagena de Indias</p>
-        <p>7. Februar - 7. April 2014</p>
-      </div>
     </div>
   );
 };

@@ -37,10 +37,15 @@ const KunsthalleMainz = () => {
         showStatus={true}
         showIndicators={false}
         emulateTouch
-        dynamicHeight
       >
         <div>
           <img alt="" src={img2} />
+          <div className="absolute bottom-0 text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:mb-16 lg:pl-12 pt-8">
+        <p>Friedemann von Stockhausen, «Augen der Welt», 2015</p>
+        <p className="mb-2">Forster 1754 – 2015, Kunsthalle Mainz</p>
+        <p>Lothar Baumgarten, Camille Henrot, Friedemann von Stockhausen</p>
+        <p>2. Oktober 2015 – 24. Januar 2016</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img3} />
@@ -111,17 +116,10 @@ const KunsthalleMainz = () => {
         <div>
           <img alt="" src={img25} />
         </div>
-        <div>
+        <div className="text">
           <MainzText />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p>Friedemann von Stockhausen, «Augen der Welt», 2015</p>
-        <p className="mb-2">Forster 1754 – 2015, Kunsthalle Mainz</p>
-        <p>Lothar Baumgarten, Camille Henrot, Friedemann von Stockhausen</p>
-        <p>2. Oktober 2015 – 24. Januar 2016</p>
-      </div>
     </div>
   );
 };
