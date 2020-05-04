@@ -44,7 +44,8 @@
 
 .carousel {
   position: relative;
-  width: 100%; }
+  width: 100%;
+ }
   .carousel * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -121,7 +122,6 @@
     overflow: scroll;
     margin: auto;
     width: 100%;
-    height: calc(100vh - 6rem);
     -webkit-transition: height 0.15s ease-in;
     -moz-transition: height 0.15s ease-in;
     -ms-transition: height 0.15s ease-in;
@@ -168,7 +168,7 @@
     text-align: center; }
     .carousel .slide img {
       width: 80%;
-      height: 600px;
+      height: 60vh;
       object-fit: contain;
       vertical-align: center;
       border: 0; }
@@ -236,46 +236,20 @@
     color: #000; }
 
 /********************************************
-	BREAKPOINT WIDTHS
-*******************************************
-
-@media only screen and (max-width: 600px) { 
-  .carousel .slide img {
-    height: 600px;
-   }
- }
-
- @media only screen and (min-width: 600px) { 
-  .carousel .slide img {
-    height: 600px;
-   }
- }
-
- @media only screen and (min-width: 768px) { 
-  .carousel .slide img {
-    height: 600px;
-   }
- }
-
- @media only screen and (min-width: 992px) { 
-  .carousel .slide img {
-    height: 600px;
-   }
- }
-
- @media only screen and (min-width: 1200px) { 
-  .carousel .slide img {
-    height: 600px;
-   }
- }
-
- */
-
- /********************************************
-	BREAKPOINT WIDTHS
+	ADDITIONAL CSS
 ********************************************/
 
 .text {
+  -ms-overflow-style: none;
   height: calc(100vh - 6rem);
   overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.text::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel .slider-wrapper::-webkit-scrollbar {
+  display: none;
 }

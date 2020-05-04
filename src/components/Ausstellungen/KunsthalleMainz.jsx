@@ -40,7 +40,7 @@ const KunsthalleMainz = () => {
       >
         <div>
           <img alt="" src={img2} />
-          <div className="absolute bottom-0 text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:mb-16 lg:pl-12 pt-8">
+          <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
         <p>Friedemann von Stockhausen, «Augen der Welt», 2015</p>
         <p className="mb-2">Forster 1754 – 2015, Kunsthalle Mainz</p>
         <p>Lothar Baumgarten, Camille Henrot, Friedemann von Stockhausen</p>

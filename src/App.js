@@ -18,9 +18,9 @@ const App = ({ }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="h-full">
+    <main>
       <MainRouter open={open} setOpen={setOpen} />
-    </div>
+    </main>
   );
 };
 
