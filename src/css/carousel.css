@@ -259,30 +259,30 @@
 
 @media only screen and (max-width: 600px) { 
   .carousel .slide img {
-    height: 600px;
+    height: 60vh;
    }
  }
 
  @media only screen and (min-width: 600px) { 
   .carousel .slide img {
-    height: 600px;
+    height: 60vh;
    }
  }
 
  @media only screen and (min-width: 768px) { 
   .carousel .slide img {
-    height: 600px;
+    height: 60vh;
    }
  }
 
  @media only screen and (min-width: 992px) { 
   .carousel .slide img {
-    height: 600px;
+    height: 60vh;
    }
  }
 
  @media only screen and (min-width: 1200px) { 
   .carousel .slide img {
-    height: 600px;
+    height: 60vh;
    }
  }
