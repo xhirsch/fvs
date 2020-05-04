@@ -1,7 +1,5 @@
 import React from "react";
-import { useState } from 'react';
 import "./side.css";
-import Hamburger from "./Hamburger";
 
 const SideNav = ({ open }) => (
   <nav>
