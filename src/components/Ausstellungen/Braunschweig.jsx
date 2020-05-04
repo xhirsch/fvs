@@ -35,10 +35,15 @@ const Braunschweig = () => {
         showStatus={true}
         showIndicators={false}
         emulateTouch
-        dynamicHeight
       >
         <div>
           <img alt="" src={img1} />
+          <div className="text-left text-xs ml-12 mr-12 mb-4 lg:mb-16 lg:pl-12 lg:pt-24">
+          <p>Herzog Anton Ulrich-Museum, Braunschweig</p>
+          <p className="mb-2">Kupferstichkabinett</p>
+          <p>2012, Kohle, 14 Zeichnungen, je 104 x 77 cm</p>
+          <p>Photographien 1999 -2004</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -103,17 +108,10 @@ const Braunschweig = () => {
         <div>
           <img alt="" src={img22} />
         </div>
-        <div>
+        <div className="text">
           <HaumText />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p>Herzog Anton Ulrich-Museum, Braunschweig</p>
-        <p className="mb-2">Kupferstichkabinett</p>
-        <p>2012, Kohle, 14 Zeichnungen, je 104 x 77 cm</p>
-        <p>Photographien 1999 -2004</p>
-      </div>
     </div>
   );
 };

@@ -18,6 +18,11 @@ const Wolfsburg = () => {
       >
         <div>
           <img alt="" src={img1} />
+          <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
+          <p className="mb-2">«Interface»</p>
+          <p>Städtische Galerie der Stadt Wolfsburg</p>
+          <p>21. Januar - 25. Juli 2010</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -26,12 +31,6 @@ const Wolfsburg = () => {
           <img alt="" src={img3} />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p className="mb-2">«Interface»</p>
-        <p>Städtische Galerie der Stadt Wolfsburg</p>
-        <p>21. Januar - 25. Juli 2010</p>
-      </div>
     </div>
   );
 };

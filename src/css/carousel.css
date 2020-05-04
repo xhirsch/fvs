@@ -44,7 +44,8 @@
 
 .carousel {
   position: relative;
-  width: 100%; }
+  width: 100%;
+ }
   .carousel * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -118,7 +119,7 @@
       .carousel.carousel-slider .control-arrow:hover {
         background: rgba(0, 0, 0, 0); }
   .carousel .slider-wrapper {
-    overflow: hidden;
+    overflow: scroll;
     margin: auto;
     width: 100%;
     -webkit-transition: height 0.15s ease-in;
@@ -166,7 +167,8 @@
     position: relative;
     text-align: center; }
     .carousel .slide img {
-      width: 75%;
+      width: 80%;
+      height: 60vh;
       object-fit: contain;
       vertical-align: center;
       border: 0; }
@@ -232,6 +234,24 @@
     padding: 5px;
     font-size: 10px;
     color: #000; }
+
+/********************************************
+	ADDITIONAL CSS
+********************************************/
+
+.text {
+  -ms-overflow-style: none;
+  height: calc(100vh - 6rem);
+  overflow: scroll;
+}
+
+.text::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel.slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
 
 /********************************************
 	BREAKPOINT WIDTHS

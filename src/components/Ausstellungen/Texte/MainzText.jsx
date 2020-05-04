@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainzText = ({ props }) => {
     return (
-        <div className="mt-12 text-left">
+        <div className="text-left">
             <div className="m-auto p-12 xl:w-2/4 pt-24 pb-24">
                 <h1 className="font-bold">FORSTER 1754–2015</h1>
                 <h1 className="font-bold">Friedemann von Stockhausen    Augen der Welt</h1>

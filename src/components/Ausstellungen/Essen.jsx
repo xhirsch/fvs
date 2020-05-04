@@ -33,6 +33,11 @@ const Essen = () => {
       >
         <div>
           <img alt="" src={img1} />
+          <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
+          <p className="mb-2">«Ganze Teile»</p>
+          <p>Museum Folkwang Essen</p>
+          <p>25. August - 21. Oktober 2012</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -86,12 +91,6 @@ const Essen = () => {
           <img alt="" src={img18} />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p className="mb-2">«Ganze Teile»</p>
-        <p>Museum Folkwang Essen</p>
-        <p>25. August - 21. Oktober 2012</p>
-      </div>
     </div>
   );
 };

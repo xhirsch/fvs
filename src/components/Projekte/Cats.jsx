@@ -23,10 +23,15 @@ const Cats = () => {
         showStatus={true}
         showIndicators={false}
         emulateTouch
-        dynamicHeight
       >
         <div>
           <img alt="" src={img1} />
+          <div className="absolute bottom-0 text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:mb-16 lg:pl-12 pt-8">
+          <p>Friedemann von Stockhausen, «CATSweb», 2018</p>
+          <p className="mb-2">Kunst am Bau – Bodengestaltung, Heidelberg</p>
+          <p>Universität Heidelberg, Centrum für Asienwissenschaften und Transkulturelle Studien</p>
+          <p>Voßstraße 2, 69115 Heidelberg</p>
+      </div>
         </div>
         <div>
           <img alt="" src={img2} />
@@ -55,17 +60,10 @@ const Cats = () => {
         <div>
           <img alt="" src={img10} />
         </div>
-        <div>
+        <div className="text">
           <CatsText />
         </div>
       </StyledCarousel>
-
-      <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12 pt-8">
-        <p>Friedemann von Stockhausen, «CATSweb», 2018</p>
-        <p className="mb-2">Kunst am Bau – Bodengestaltung, Heidelberg</p>
-        <p>Universität Heidelberg, Centrum für Asienwissenschaften und Transkulturelle Studien</p>
-        <p>Voßstraße 2, 69115 Heidelberg</p>
-      </div>
     </div>
   );
 };

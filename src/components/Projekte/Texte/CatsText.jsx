@@ -2,7 +2,7 @@ import React from 'react';
 
 const CatsText = ({ props }) => {
     return (
-        <div className="mt-12 text-left">
+        <div className="text-left">
             <div className="m-auto p-12 xl:w-2/4 pt-24 pb-24">
 
                 <h1 className="font-bold">CATSWEB</h1>
