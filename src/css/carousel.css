@@ -249,7 +249,7 @@
   display: none;
 }
 
-.carousel.slider-wrapper::-webkit-scrollbar {
+.carousel .slider-wrapper::-webkit-scrollbar {
   display: none;
 }
 
