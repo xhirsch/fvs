@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Impressum = ({ }) => {
+const Impressum = ({ props }) => {
   return (
     <div className="flex pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
       <div className="right">
@@ -152,6 +152,7 @@ const Impressum = ({ }) => {
           <div className="w-full text-left">
             <a
               href="http://www.xaverhirsch.de/"
+              rel="opener"
               target="_blank"
               className="hover:underline"
             >

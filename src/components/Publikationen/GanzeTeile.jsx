@@ -1,10 +1,10 @@
-import React from "react";
-import StyledCarousel from "../StyledCarousel";
+import React from 'react';
+import StyledCarousel from '../StyledCarousel';
 
-import img1 from "../../assets/images/publikation/stockhausen_ganzeteile_1.png";
-import img2 from "../../assets/images/publikation/stockhausen_ganzeteile_2.png";
-import img3 from "../../assets/images/publikation/stockhausen_ganzeteile_3.png";
-import img4 from "../../assets/images/publikation/stockhausen_ganzeteile_4.png";
+import img1 from '../../assets/images/publikation/stockhausen_ganzeteile_1.png';
+import img2 from '../../assets/images/publikation/stockhausen_ganzeteile_2.png';
+import img3 from '../../assets/images/publikation/stockhausen_ganzeteile_3.png';
+import img4 from '../../assets/images/publikation/stockhausen_ganzeteile_4.png';
 
 const GanzeTeile = () => {
   return (
