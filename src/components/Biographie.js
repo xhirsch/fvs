@@ -1,9 +1,8 @@
 import React from "react";
 
-const Biographie = ({ }) => {
+const Biographie = ({}) => {
   return (
     <div className="flex flex-col pr-12 pt-40 text-lg xl:text-xs ml-12 xl:ml-64 xl:max-w-4xl">
-
       {/* LEBEN */}
       <div className="flex">
         <p className="w-24">1945</p>
@@ -18,7 +17,8 @@ const Biographie = ({ }) => {
         <div className="w-4/5 mb-2 xl:mb-0">
           <p>
             Studium der Kunstgeschichte, Ethnologie und Soziologie an der
-            Universität zu Köln</p>
+            Universität zu Köln
+          </p>
         </div>
       </div>
       <div className="flex">
@@ -36,9 +36,7 @@ const Biographie = ({ }) => {
           <p>1994 – 2012</p>
         </div>
         <div className="w-4/5 mb-2 xl:mb-0">
-          <p>
-            Professur an der Hochschule für Bildende Künste in Braunschweig
-          </p>
+          <p>Professur an der Hochschule für Bildende Künste in Braunschweig</p>
         </div>
       </div>
       <div className="flex">
@@ -46,9 +44,7 @@ const Biographie = ({ }) => {
           <p></p>
         </div>
         <div className="w-4/5 mb-2 xl:mb-0">
-          <p>
-            lebt in Berlin
-          </p>
+          <p>lebt in Berlin</p>
         </div>
       </div>
 
@@ -232,9 +228,7 @@ const Biographie = ({ }) => {
           <p>2020</p>
         </div>
         <div className="w-4/5 mb-2 xl:mb-0">
-          <p>
-            «Der Montierte Mensch» Museum Folkwang, Essen (K)
-          </p>
+          <p>«Der Montierte Mensch» Museum Folkwang, Essen (K)</p>
         </div>
       </div>
 
@@ -467,12 +461,7 @@ const Biographie = ({ }) => {
         <div className="flex">
           <div className="w-24"></div>
           <div className="w-4/5 mb-2 xl:mb-0">
-            <a
-              href="mailto:mail@friedemannvonstockhausen.de"
-              className="hover:underline"
-            >
-              <p>mailATfriedemannvonstockhausen.de</p>
-            </a>
+            <p>fvstockhausen@gmail.com</p>
           </div>
         </div>
       </div>
