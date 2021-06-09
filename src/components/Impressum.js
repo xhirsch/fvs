@@ -1,9 +1,21 @@
 import React from "react";
 
-const Impressum = ({ }) => {
+const Impressum = ({}) => {
   return (
     <div className="flex pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
       <div className="right">
+        {/* Contact */}
+        <div className="flex flex-col mb-12">
+          <p>
+            Friedemann von Stockhausen
+            <br />
+            Wilhelmine Gemberg Weg 6 A<br />
+            10179 Berlin
+            <br />
+            <br />
+            fvstockhausen@gmail.com
+          </p>
+        </div>
         {/* Headline */}
         <div className="flex font-bold mb-6">
           <div className="">
