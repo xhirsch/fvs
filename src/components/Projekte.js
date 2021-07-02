@@ -15,6 +15,11 @@ const Projekte = ({ }) => {
         year="2004"
         title="» Ein Held unserer Zeit « 31 Photographien"
       />
+      <ProjectLink
+        to="/projekte/anderen"
+        year="20??"
+        title="» dort in einem anderen «"
+      />
     </div>
   );
 };
