@@ -163,7 +163,7 @@ const Impressum = ({}) => {
         <div className="flex flex-col mt-24 mb-12">
           <div className="w-full text-left">
             <a
-              href="http://www.xaverhirsch.de/"
+              href="http://www.xaverhirsch.com"
               target="_blank"
               className="hover:underline"
             >

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Datenschutz = ({ }) => {
+const Datenschutz = ({}) => {
   return (
     <div className="flex">
       <div className="pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
@@ -206,31 +206,30 @@ const Datenschutz = ({ }) => {
               ansprechend darzustellen, verwenden wir auf dieser Website
               Scriptbibliotheken und Schriftbibliotheken wie z. B. Google
               Webfonts (
-                <a
+              <a
                 href="https://www.google.com/webfonts/"
                 target="_blank"
                 className="hover:underline"
               >
                 <p>Link.</p>
               </a>
-            ). Google Webfonts
-              werden zur Vermeidung mehrfachen Ladens in den Cache Ihres
-              Browsers übertragen. Falls der Browser die Google Webfonts nicht
-              unterstützt oder den Zugriff unterbindet, werden Inhalte in einer
-              Standardschrift angezeigt. Der Aufruf von Scriptbibliotheken oder
-              Schriftbibliotheken löst automatisch eine Verbindung zum Betreiber
-              der Bibliothek aus. Dabei ist es theoretisch möglich – aktuell
-              allerdings auch unklar ob und ggf. zu welchen Zwecken – dass
-              Betreiber entsprechender Bibliotheken Daten erheben. Die
-              Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie
-              hier: <a
+              ). Google Webfonts werden zur Vermeidung mehrfachen Ladens in den
+              Cache Ihres Browsers übertragen. Falls der Browser die Google
+              Webfonts nicht unterstützt oder den Zugriff unterbindet, werden
+              Inhalte in einer Standardschrift angezeigt. Der Aufruf von
+              Scriptbibliotheken oder Schriftbibliotheken löst automatisch eine
+              Verbindung zum Betreiber der Bibliothek aus. Dabei ist es
+              theoretisch möglich – aktuell allerdings auch unklar ob und ggf.
+              zu welchen Zwecken – dass Betreiber entsprechender Bibliotheken
+              Daten erheben. Die Datenschutzrichtlinie des Bibliothekbetreibers
+              Google finden Sie hier:{" "}
+              <a
                 href="https://www.google.com/policies/privacy/"
                 target="_blank"
                 className="hover:underline"
               >
                 <p>Link</p>
               </a>
-
             </p>
           </div>
         </div>
@@ -277,7 +276,7 @@ const Datenschutz = ({ }) => {
         <div className="flex flex-col mt-24 mb-12">
           <div className="w-full text-left">
             <a
-              href="http://www.xaverhirsch.de/"
+              href="http://www.xaverhirsch.com"
               target="_blank"
               className="hover:underline"
             >
