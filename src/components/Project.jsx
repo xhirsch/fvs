@@ -19,6 +19,11 @@ import Cats from "./Projekte/Cats";
 import Held from "./Projekte/Held";
 import Valve1 from "./Publikationen/Valve1";
 import Index from "./Publikationen/Index";
+import DM from "./Publikationen/DM";
+import Hamburg from "./Publikationen/Hamburg";
+import SketchDiary from "./Publikationen/SketchDiary";
+import DameZuerich from "./Publikationen/DameZuerich";
+import Feuermann from "./Publikationen/Feuermann";
 
 const whatToRender = name => {
   switch (name) {
@@ -56,6 +61,16 @@ const whatToRender = name => {
       return <Valve1 />;
     case "index":
       return <Index />;
+    case "dm":
+      return <DM />;
+    case "hamburg":
+      return <Hamburg />;
+    case "sketchdiary":
+      return <SketchDiary />;
+    case "dameZuerich":
+      return <DameZuerich />;
+    case "feuermann":
+      return <Feuermann />;
     default:
       return <h1>Halluuuu</h1>;
   }
@@ -79,6 +94,11 @@ const project = {
   held: Held,
   valve1: Valve1,
   index: Index,
+  dm: DM,
+  hamburg: Hamburg,
+  sketchDiary: SketchDiary,
+  dameZuerich: DameZuerich,
+  feuermann: Feuermann,
 };
 const Project = () => {
   const { name } = useParams();

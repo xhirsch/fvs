@@ -37,8 +37,33 @@ const Publikation = ({ }) => {
       />
       <ProjectLink
         to="/publikationen/index"
-        year="XXXX"
+        year="19xx"
         title="Index"
+      />
+      <ProjectLink
+        to="/publikationen/dm"
+        year="1992"
+        title="2330DM"
+      />
+      <ProjectLink
+        to="/publikationen/hamburg"
+        year="1992"
+        title="Hamburg"
+      />
+      <ProjectLink
+        to="/publikationen/sketchDiary"
+        year="1992"
+        title="SketchDiary"
+      />
+      <ProjectLink
+        to="/publikationen/dameZuerich"
+        year="1992"
+        title="DameZuerich"
+      />
+      <ProjectLink
+        to="/publikationen/feuermann"
+        year="1992"
+        title="Feuermann"
       />
     </div>
   );
