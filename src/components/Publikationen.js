@@ -35,6 +35,11 @@ const Publikation = ({ }) => {
         year="2003"
         title="Polymorph"
       />
+      <ProjectLink
+        to="/publikationen/index"
+        year="XXXX"
+        title="Index"
+      />
     </div>
   );
 };

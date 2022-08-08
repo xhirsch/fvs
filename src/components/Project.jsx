@@ -18,6 +18,7 @@ import Polymorph from "./Publikationen/Polymorph";
 import Cats from "./Projekte/Cats";
 import Held from "./Projekte/Held";
 import Valve1 from "./Publikationen/Valve1";
+import Index from "./Publikationen/Index";
 
 const whatToRender = name => {
   switch (name) {
@@ -53,6 +54,8 @@ const whatToRender = name => {
       return <Held />;
     case "valve1":
       return <Valve1 />;
+    case "index":
+      return <Index />;
     default:
       return <h1>Halluuuu</h1>;
   }
@@ -75,6 +78,7 @@ const project = {
   cats: Cats,
   held: Held,
   valve1: Valve1,
+  index: Index,
 };
 const Project = () => {
   const { name } = useParams();
