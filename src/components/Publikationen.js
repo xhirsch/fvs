@@ -20,11 +20,11 @@ const Publikation = ({ }) => {
         year="2008"
         title="77 Augen"
       />
-      {/* <ProjectLink
+      <ProjectLink
         to="/projekte/valve1"
         year="2006"
         title="Valve / Ventil"
-      /> */}
+      />
       <ProjectLink
         to="/publikationen/haut"
         year="2005"
