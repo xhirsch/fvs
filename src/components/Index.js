@@ -11,10 +11,16 @@ const Index = ({ }) => {
         title="» CATSweb « Kunst am Bau – Bodengestaltung, Heidelberg"
       />
       <ProjectLink
+        to="/index/valve1"
+        year="2006"
+        title="Valve / Ventil"
+      />
+      <ProjectLink
         to="/index/held"
         year="2004"
         title="» Ein Held unserer Zeit « 31 Photographien"
       />
+      
     </div>
   );
 };

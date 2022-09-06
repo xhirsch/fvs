@@ -17,7 +17,7 @@ import Haut from "./Publikationen/Haut";
 import Polymorph from "./Publikationen/Polymorph";
 import Cats from "./Index/Cats";
 import Held from "./Index/Held";
-import Valve1 from "./Publikationen/Valve1";
+import Valve1 from "./Index/Valve1";
 
 const whatToRender = name => {
   switch (name) {
