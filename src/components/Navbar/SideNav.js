@@ -10,8 +10,8 @@ const SideNav = ({ open }) => (
       <a href="/publikationen">
         <li className="px-3 py-2 hover:bg-white">Publikationen</li>
       </a>
-      <a href="/projekte">
-        <li className="px-3 py-2 hover:bg-white">Projekte</li>
+      <a href="/index">
+        <li className="px-3 py-2 hover:bg-white">Index</li>
       </a>
       <a href="/biographie">
         <li className="px-3 py-2 hover:bg-white">Biographie</li>
