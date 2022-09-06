@@ -15,8 +15,8 @@ import Blick from "./Publikationen/Blick";
 import GanzeTeile from "./Publikationen/GanzeTeile";
 import Haut from "./Publikationen/Haut";
 import Polymorph from "./Publikationen/Polymorph";
-import Cats from "./Projekte/Cats";
-import Held from "./Projekte/Held";
+import Cats from "./Index/Cats";
+import Held from "./Index/Held";
 import Valve1 from "./Publikationen/Valve1";
 
 const whatToRender = name => {
