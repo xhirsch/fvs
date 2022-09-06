@@ -20,6 +20,11 @@ const Index = ({ }) => {
         year="2004"
         title="» Ein Held unserer Zeit « 31 Photographien"
       />
+      <ProjectLink
+        to="/index/fremdlinge"
+        year="1992"
+        title="Fremdlinge"
+      />
       
     </div>
   );
