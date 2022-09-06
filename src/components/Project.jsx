@@ -18,6 +18,8 @@ import Polymorph from "./Publikationen/Polymorph";
 import Cats from "./Index/Cats";
 import Held from "./Index/Held";
 import Valve1 from "./Index/Valve1";
+import KunsthalleHamburg from "./Publikationen/KunsthalleHamburg";
+import SalaMendoza from "./Publikationen/SalaMendoza";
 
 const whatToRender = name => {
   switch (name) {
@@ -53,6 +55,10 @@ const whatToRender = name => {
       return <Held />;
     case "valve1":
       return <Valve1 />;
+    case "kunsthalleHamburg":
+      return <KunsthalleHamburg />
+    case "salaMendoza":
+      return <SalaMendoza />
     default:
       return <h1>Halluuuu</h1>;
   }
@@ -75,6 +81,8 @@ const project = {
   cats: Cats,
   held: Held,
   valve1: Valve1,
+  kunsthalleHamburg: KunsthalleHamburg,
+  salaMendoza: SalaMendoza,
 };
 const Project = () => {
   const { name } = useParams();

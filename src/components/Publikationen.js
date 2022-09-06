@@ -30,6 +30,16 @@ const Publikation = ({ }) => {
         year="2003"
         title="Polymorph"
       />
+      <ProjectLink
+        to="/publikationen/kunsthalleHamburg"
+        year="1990"
+        title="Kunsthalle Hamburg"
+      />
+      <ProjectLink
+        to="/publikationen/salaMendoza"
+        year="1988"
+        title="Sala Mendoza"
+      />
     </div>
   );
 };
