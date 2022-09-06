@@ -1,134 +1,129 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/publikation/stockhausen_valve1_1.jpg";
-import img2 from "../../assets/images/publikation/stockhausen_valve1_2.jpg";
-import img3 from "../../assets/images/publikation/stockhausen_valve1_3.jpg";
-import img4 from "../../assets/images/publikation/stockhausen_valve1_4.jpg";
-import img5 from "../../assets/images/publikation/stockhausen_valve1_5.jpg";
-import img6 from "../../assets/images/publikation/stockhausen_valve1_6.jpg";
-import img7 from "../../assets/images/publikation/stockhausen_valve1_7.jpg";
-import img8 from "../../assets/images/publikation/stockhausen_valve1_8.jpg";
-import img9 from "../../assets/images/publikation/stockhausen_valve1_9.jpg";
-import img10 from "../../assets/images/publikation/stockhausen_valve1_10.jpg";
-import img11 from "../../assets/images/publikation/stockhausen_valve1_11.jpg";
-import img12 from "../../assets/images/publikation/stockhausen_valve1_12.jpg";
-import img13 from "../../assets/images/publikation/stockhausen_valve1_13.jpg";
-import img14 from "../../assets/images/publikation/stockhausen_valve1_14.jpg";
-import img15 from "../../assets/images/publikation/stockhausen_valve1_15.jpg";
-import img16 from "../../assets/images/publikation/stockhausen_valve1_16.jpg";
-import img17 from "../../assets/images/publikation/stockhausen_valve1_17.jpg";
-import img18 from "../../assets/images/publikation/stockhausen_valve1_18.jpg";
-import img19 from "../../assets/images/publikation/stockhausen_valve1_19.jpg";
-import img20 from "../../assets/images/publikation/stockhausen_valve1_20.jpg";
-import img21 from "../../assets/images/publikation/stockhausen_valve1_21.jpg";
-import img22 from "../../assets/images/publikation/stockhausen_valve1_22.jpg";
-import img23 from "../../assets/images/publikation/stockhausen_valve1_23.jpg";
-import img24 from "../../assets/images/publikation/stockhausen_valve1_24.jpg";
-import img25 from "../../assets/images/publikation/stockhausen_valve1_25.jpg";
-import img26 from "../../assets/images/publikation/stockhausen_valve1_26.jpg";
-import img27 from "../../assets/images/publikation/stockhausen_valve1_27.jpg";
-import img28 from "../../assets/images/publikation/stockhausen_valve1_28.jpg";
-import img29 from "../../assets/images/publikation/stockhausen_valve1_29.jpg";
-import img30 from "../../assets/images/publikation/stockhausen_valve1_30.jpg";
-import img31 from "../../assets/images/publikation/stockhausen_valve1_31.jpg";
-import img32 from "../../assets/images/publikation/stockhausen_valve1_32.jpg";
-import img33 from "../../assets/images/publikation/stockhausen_valve1_33.jpg";
-import img34 from "../../assets/images/publikation/stockhausen_valve1_34.jpg";
-import img35 from "../../assets/images/publikation/stockhausen_valve1_35.jpg";
-import img36 from "../../assets/images/publikation/stockhausen_valve1_36.jpg";
-import img37 from "../../assets/images/publikation/stockhausen_valve1_37.jpg";
-import img38 from "../../assets/images/publikation/stockhausen_valve1_38.jpg";
-import img39 from "../../assets/images/publikation/stockhausen_valve1_39.jpg";
-import img40 from "../../assets/images/publikation/stockhausen_valve1_40.jpg";
-import img41 from "../../assets/images/publikation/stockhausen_valve1_41.jpg";
-import img42 from "../../assets/images/publikation/stockhausen_valve1_42.jpg";
-import img43 from "../../assets/images/publikation/stockhausen_valve1_43.jpg";
-import img44 from "../../assets/images/publikation/stockhausen_valve1_44.jpg";
-import img45 from "../../assets/images/publikation/stockhausen_valve1_45.jpg";
-import img46 from "../../assets/images/publikation/stockhausen_valve1_46.jpg";
-import img47 from "../../assets/images/publikation/stockhausen_valve1_47.jpg";
-import img48 from "../../assets/images/publikation/stockhausen_valve1_48.jpg";
-import img49 from "../../assets/images/publikation/stockhausen_valve1_49.jpg";
-import img50 from "../../assets/images/publikation/stockhausen_valve1_50.jpg";
-import img51 from "../../assets/images/publikation/stockhausen_valve1_51.jpg";
-import img52 from "../../assets/images/publikation/stockhausen_valve1_52.jpg";
-import img53 from "../../assets/images/publikation/stockhausen_valve1_53.jpg";
-import img54 from "../../assets/images/publikation/stockhausen_valve1_54.jpg";
-import img55 from "../../assets/images/publikation/stockhausen_valve1_55.jpg";
-import img56 from "../../assets/images/publikation/stockhausen_valve1_56.jpg";
-import img57 from "../../assets/images/publikation/stockhausen_valve1_57.jpg";
-import img58 from "../../assets/images/publikation/stockhausen_valve1_58.jpg";
-import img59 from "../../assets/images/publikation/stockhausen_valve1_59.jpg";
-import img60 from "../../assets/images/publikation/stockhausen_valve1_60.jpg";
-import img61 from "../../assets/images/publikation/stockhausen_valve1_61.jpg";
-import img62 from "../../assets/images/publikation/stockhausen_valve1_62.jpg";
-import img63 from "../../assets/images/publikation/stockhausen_valve1_63.jpg";
-import img64 from "../../assets/images/publikation/stockhausen_valve1_64.jpg";
-import img65 from "../../assets/images/publikation/stockhausen_valve1_65.jpg";
-import img66 from "../../assets/images/publikation/stockhausen_valve1_66.jpg";
-import img67 from "../../assets/images/publikation/stockhausen_valve1_67.jpg";
-import img68 from "../../assets/images/publikation/stockhausen_valve1_68.jpg";
-import img69 from "../../assets/images/publikation/stockhausen_valve1_69.jpg";
-import img70 from "../../assets/images/publikation/stockhausen_valve1_70.jpg";
-import img71 from "../../assets/images/publikation/stockhausen_valve1_71.jpg";
-import img72 from "../../assets/images/publikation/stockhausen_valve1_72.jpg";
-import img73 from "../../assets/images/publikation/stockhausen_valve1_73.jpg";
-import img74 from "../../assets/images/publikation/stockhausen_valve1_74.jpg";
-import img75 from "../../assets/images/publikation/stockhausen_valve1_75.jpg";
-import img76 from "../../assets/images/publikation/stockhausen_valve1_76.jpg";
-import img77 from "../../assets/images/publikation/stockhausen_valve1_77.jpg";
-import img78 from "../../assets/images/publikation/stockhausen_valve1_78.jpg";
-import img79 from "../../assets/images/publikation/stockhausen_valve1_79.jpg";
-import img80 from "../../assets/images/publikation/stockhausen_valve1_80.jpg";
-import img81 from "../../assets/images/publikation/stockhausen_valve1_81.jpg";
-import img82 from "../../assets/images/publikation/stockhausen_valve1_82.jpg";
-import img83 from "../../assets/images/publikation/stockhausen_valve1_83.jpg";
-import img84 from "../../assets/images/publikation/stockhausen_valve1_84.jpg";
-import img85 from "../../assets/images/publikation/stockhausen_valve1_85.jpg";
-import img86 from "../../assets/images/publikation/stockhausen_valve1_86.jpg";
-import img87 from "../../assets/images/publikation/stockhausen_valve1_87.jpg";
-import img88 from "../../assets/images/publikation/stockhausen_valve1_88.jpg";
-import img89 from "../../assets/images/publikation/stockhausen_valve1_89.jpg";
-import img90 from "../../assets/images/publikation/stockhausen_valve1_90.jpg";
-import img91 from "../../assets/images/publikation/stockhausen_valve1_91.jpg";
-import img92 from "../../assets/images/publikation/stockhausen_valve1_92.jpg";
-import img93 from "../../assets/images/publikation/stockhausen_valve1_93.jpg";
-import img94 from "../../assets/images/publikation/stockhausen_valve1_94.jpg";
-import img95 from "../../assets/images/publikation/stockhausen_valve1_95.jpg";
-import img96 from "../../assets/images/publikation/stockhausen_valve1_96.jpg";
-import img97 from "../../assets/images/publikation/stockhausen_valve1_97.jpg";
-import img98 from "../../assets/images/publikation/stockhausen_valve1_98.jpg";
-import img99 from "../../assets/images/publikation/stockhausen_valve1_99.jpg";
-import img100 from "../../assets/images/publikation/stockhausen_valve1_100.jpg";
-import img101 from "../../assets/images/publikation/stockhausen_valve1_101.jpg";
-import img102 from "../../assets/images/publikation/stockhausen_valve1_102.jpg";
-import img103 from "../../assets/images/publikation/stockhausen_valve1_103.jpg";
-import img104 from "../../assets/images/publikation/stockhausen_valve1_104.jpg";
-import img105 from "../../assets/images/publikation/stockhausen_valve1_105.jpg";
-import img106 from "../../assets/images/publikation/stockhausen_valve1_106.jpg";
-import img107 from "../../assets/images/publikation/stockhausen_valve1_107.jpg";
-import img108 from "../../assets/images/publikation/stockhausen_valve1_108.jpg";
-import img109 from "../../assets/images/publikation/stockhausen_valve1_109.jpg";
-import img110 from "../../assets/images/publikation/stockhausen_valve1_110.jpg";
-import img111 from "../../assets/images/publikation/stockhausen_valve1_111.jpg";
-import img112 from "../../assets/images/publikation/stockhausen_valve1_112.jpg";
-import img113 from "../../assets/images/publikation/stockhausen_valve1_113.jpg";
-import img114 from "../../assets/images/publikation/stockhausen_valve1_114.jpg";
-import img115 from "../../assets/images/publikation/stockhausen_valve1_115.jpg";
-import img116 from "../../assets/images/publikation/stockhausen_valve1_116.jpg";
-import img117 from "../../assets/images/publikation/stockhausen_valve1_117.jpg";
-import img118 from "../../assets/images/publikation/stockhausen_valve1_118.jpg";
-import img119 from "../../assets/images/publikation/stockhausen_valve1_119.jpg";
-import img120 from "../../assets/images/publikation/stockhausen_valve1_120.jpg";
-import img121 from "../../assets/images/publikation/stockhausen_valve1_121.jpg";
-import img122 from "../../assets/images/publikation/stockhausen_valve1_122.jpg";
-import img123 from "../../assets/images/publikation/stockhausen_valve1_123.jpg";
-import img124 from "../../assets/images/publikation/stockhausen_valve1_124.jpg";
-import img125 from "../../assets/images/publikation/stockhausen_valve1_125.jpg";
-import img126 from "../../assets/images/publikation/stockhausen_valve1_126.jpg";
-import img127 from "../../assets/images/publikation/stockhausen_valve1_127.jpg";
-import img128 from "../../assets/images/publikation/stockhausen_valve1_128.jpg";
+
+import img0 from "../../assets/images/index/fvs_valve1_0.jpg";
+import img1 from "../../assets/images/index/fvs_valve1_1.jpg";
+import img2 from "../../assets/images/index/fvs_valve1_2.jpg";
+import img3 from "../../assets/images/index/fvs_valve1_3.jpg";
+import img4 from "../../assets/images/index/fvs_valve1_4.jpg";
+import img5 from "../../assets/images/index/fvs_valve1_5.jpg";
+import img6 from "../../assets/images/index/fvs_valve1_6.jpg";
+import img7 from "../../assets/images/index/fvs_valve1_7.jpg";
+import img8 from "../../assets/images/index/fvs_valve1_8.jpg";
+import img9 from "../../assets/images/index/fvs_valve1_9.jpg";
+import img10 from "../../assets/images/index/fvs_valve1_10.jpg";
+import img11 from "../../assets/images/index/fvs_valve1_11.jpg";
+import img12 from "../../assets/images/index/fvs_valve1_12.jpg";
+import img13 from "../../assets/images/index/fvs_valve1_13.jpg";
+import img14 from "../../assets/images/index/fvs_valve1_14.jpg";
+import img15 from "../../assets/images/index/fvs_valve1_15.jpg";
+import img16 from "../../assets/images/index/fvs_valve1_16.jpg";
+import img17 from "../../assets/images/index/fvs_valve1_17.jpg";
+import img18 from "../../assets/images/index/fvs_valve1_18.jpg";
+import img19 from "../../assets/images/index/fvs_valve1_19.jpg";
+import img20 from "../../assets/images/index/fvs_valve1_20.jpg";
+import img21 from "../../assets/images/index/fvs_valve1_21.jpg";
+import img22 from "../../assets/images/index/fvs_valve1_22.jpg";
+import img23 from "../../assets/images/index/fvs_valve1_23.jpg";
+import img24 from "../../assets/images/index/fvs_valve1_24.jpg";
+import img25 from "../../assets/images/index/fvs_valve1_25.jpg";
+import img26 from "../../assets/images/index/fvs_valve1_26.jpg";
+import img27 from "../../assets/images/index/fvs_valve1_27.jpg";
+import img28 from "../../assets/images/index/fvs_valve1_28.jpg";
+import img29 from "../../assets/images/index/fvs_valve1_29.jpg";
+import img30 from "../../assets/images/index/fvs_valve1_30.jpg";
+import img31 from "../../assets/images/index/fvs_valve1_31.jpg";
+import img32 from "../../assets/images/index/fvs_valve1_32.jpg";
+import img33 from "../../assets/images/index/fvs_valve1_33.jpg";
+import img34 from "../../assets/images/index/fvs_valve1_34.jpg";
+import img35 from "../../assets/images/index/fvs_valve1_35.jpg";
+import img36 from "../../assets/images/index/fvs_valve1_36.jpg";
+import img37 from "../../assets/images/index/fvs_valve1_37.jpg";
+import img38 from "../../assets/images/index/fvs_valve1_38.jpg";
+import img39 from "../../assets/images/index/fvs_valve1_39.jpg";
+import img40 from "../../assets/images/index/fvs_valve1_40.jpg";
+import img41 from "../../assets/images/index/fvs_valve1_41.jpg";
+import img42 from "../../assets/images/index/fvs_valve1_42.jpg";
+import img43 from "../../assets/images/index/fvs_valve1_43.jpg";
+import img44 from "../../assets/images/index/fvs_valve1_44.jpg";
+import img45 from "../../assets/images/index/fvs_valve1_45.jpg";
+import img46 from "../../assets/images/index/fvs_valve1_46.jpg";
+import img47 from "../../assets/images/index/fvs_valve1_47.jpg";
+import img48 from "../../assets/images/index/fvs_valve1_48.jpg";
+import img49 from "../../assets/images/index/fvs_valve1_49.jpg";
+import img50 from "../../assets/images/index/fvs_valve1_50.jpg";
+import img51 from "../../assets/images/index/fvs_valve1_51.jpg";
+import img52 from "../../assets/images/index/fvs_valve1_52.jpg";
+import img53 from "../../assets/images/index/fvs_valve1_53.jpg";
+import img54 from "../../assets/images/index/fvs_valve1_54.jpg";
+import img55 from "../../assets/images/index/fvs_valve1_55.jpg";
+import img56 from "../../assets/images/index/fvs_valve1_56.jpg";
+import img57 from "../../assets/images/index/fvs_valve1_57.jpg";
+import img58 from "../../assets/images/index/fvs_valve1_58.jpg";
+import img59 from "../../assets/images/index/fvs_valve1_59.jpg";
+import img60 from "../../assets/images/index/fvs_valve1_60.jpg";
+import img61 from "../../assets/images/index/fvs_valve1_61.jpg";
+import img62 from "../../assets/images/index/fvs_valve1_62.jpg";
+import img63 from "../../assets/images/index/fvs_valve1_63.jpg";
+import img64 from "../../assets/images/index/fvs_valve1_64.jpg";
+import img65 from "../../assets/images/index/fvs_valve1_65.jpg";
+import img66 from "../../assets/images/index/fvs_valve1_66.jpg";
+import img67 from "../../assets/images/index/fvs_valve1_67.jpg";
+import img68 from "../../assets/images/index/fvs_valve1_68.jpg";
+import img69 from "../../assets/images/index/fvs_valve1_69.jpg";
+import img70 from "../../assets/images/index/fvs_valve1_70.jpg";
+import img71 from "../../assets/images/index/fvs_valve1_71.jpg";
+import img72 from "../../assets/images/index/fvs_valve1_72.jpg";
+import img73 from "../../assets/images/index/fvs_valve1_73.jpg";
+import img74 from "../../assets/images/index/fvs_valve1_74.jpg";
+import img75 from "../../assets/images/index/fvs_valve1_75.jpg";
+import img76 from "../../assets/images/index/fvs_valve1_76.jpg";
+import img77 from "../../assets/images/index/fvs_valve1_77.jpg";
+import img78 from "../../assets/images/index/fvs_valve1_78.jpg";
+import img79 from "../../assets/images/index/fvs_valve1_79.jpg";
+import img80 from "../../assets/images/index/fvs_valve1_80.jpg";
+import img81 from "../../assets/images/index/fvs_valve1_81.jpg";
+import img82 from "../../assets/images/index/fvs_valve1_82.jpg";
+import img83 from "../../assets/images/index/fvs_valve1_83.jpg";
+import img84 from "../../assets/images/index/fvs_valve1_84.jpg";
+import img85 from "../../assets/images/index/fvs_valve1_85.jpg";
+import img86 from "../../assets/images/index/fvs_valve1_86.jpg";
+import img87 from "../../assets/images/index/fvs_valve1_87.jpg";
+import img88 from "../../assets/images/index/fvs_valve1_88.jpg";
+import img89 from "../../assets/images/index/fvs_valve1_89.jpg";
+import img90 from "../../assets/images/index/fvs_valve1_90.jpg";
+import img91 from "../../assets/images/index/fvs_valve1_91.jpg";
+import img92 from "../../assets/images/index/fvs_valve1_92.jpg";
+import img93 from "../../assets/images/index/fvs_valve1_93.jpg";
+import img94 from "../../assets/images/index/fvs_valve1_94.jpg";
+import img95 from "../../assets/images/index/fvs_valve1_95.jpg";
+import img96 from "../../assets/images/index/fvs_valve1_96.jpg";
+import img97 from "../../assets/images/index/fvs_valve1_97.jpg";
+import img98 from "../../assets/images/index/fvs_valve1_98.jpg";
+import img99 from "../../assets/images/index/fvs_valve1_99.jpg";
+import img100 from "../../assets/images/index/fvs_valve1_100.jpg";
+import img101 from "../../assets/images/index/fvs_valve1_101.jpg";
+import img102 from "../../assets/images/index/fvs_valve1_102.jpg";
+import img103 from "../../assets/images/index/fvs_valve1_103.jpg";
+import img104 from "../../assets/images/index/fvs_valve1_104.jpg";
+import img105 from "../../assets/images/index/fvs_valve1_105.jpg";
+import img106 from "../../assets/images/index/fvs_valve1_106.jpg";
+import img107 from "../../assets/images/index/fvs_valve1_107.jpg";
+import img108 from "../../assets/images/index/fvs_valve1_108.jpg";
+import img109 from "../../assets/images/index/fvs_valve1_109.jpg";
+import img110 from "../../assets/images/index/fvs_valve1_110.jpg";
+import img111 from "../../assets/images/index/fvs_valve1_111.jpg";
+import img112 from "../../assets/images/index/fvs_valve1_112.jpg";
+import img113 from "../../assets/images/index/fvs_valve1_113.jpg";
+import img114 from "../../assets/images/index/fvs_valve1_114.jpg";
+import img115 from "../../assets/images/index/fvs_valve1_115.jpg";
+import img116 from "../../assets/images/index/fvs_valve1_116.jpg";
+import img117 from "../../assets/images/index/fvs_valve1_117.jpg";
+import img118 from "../../assets/images/index/fvs_valve1_118.jpg";
+import img119 from "../../assets/images/index/fvs_valve1_119.jpg";
+import img120 from "../../assets/images/index/fvs_valve1_120.jpg";
+import img121 from "../../assets/images/index/fvs_valve1_121.jpg";
 
 
 const Valve1 = () => {
@@ -142,6 +137,9 @@ const Valve1 = () => {
         showIndicators={false}
         emulateTouch
       >
+        <div>
+          <img alt="" src={img0} />
+        </div>
         <div>
           <img alt="" src={img1} />
         </div>
@@ -502,21 +500,7 @@ const Valve1 = () => {
         <div>
           <img alt="" src={img121} />
         </div>
-        <div>
-          <img alt="" src={img122} />
-        </div>
-        <div>
-          <img alt="" src={img123} />
-        </div>
-        <div>
-          <img alt="" src={img124} />
-        </div>
-        <div>
-          <img alt="" src={img125} />
-        </div>
-        <div>
-          <img alt="" src={img126} />
-        </div>
+        
       </StyledCarousel>
 
       <div className="text-left text-xs bottom-0 ml-12 mr-12 mb-4 lg:pl-12">

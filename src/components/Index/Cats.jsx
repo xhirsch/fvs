@@ -1,16 +1,16 @@
 import React from "react";
 import StyledCarousel from "../StyledCarousel";
 
-import img1 from "../../assets/images/projekte/stockhausen_cats_1.jpg";
-import img2 from "../../assets/images/projekte/stockhausen_cats_2.jpg";
-import img3 from "../../assets/images/projekte/stockhausen_cats_3.jpg";
-import img4 from "../../assets/images/projekte/stockhausen_cats_4.jpg";
-import img5 from "../../assets/images/projekte/stockhausen_cats_5.jpg";
-import img6 from "../../assets/images/projekte/stockhausen_cats_6.jpg";
-import img7 from "../../assets/images/projekte/stockhausen_cats_7.jpg";
-import img8 from "../../assets/images/projekte/stockhausen_cats_8.jpg";
-import img9 from "../../assets/images/projekte/stockhausen_cats_9.jpg";
-import img10 from "../../assets/images/projekte/stockhausen_cats_10.jpg";
+import img1 from "../../assets/images/index/stockhausen_cats_1.jpg";
+import img2 from "../../assets/images/index/stockhausen_cats_2.jpg";
+import img3 from "../../assets/images/index/stockhausen_cats_3.jpg";
+import img4 from "../../assets/images/index/stockhausen_cats_4.jpg";
+import img5 from "../../assets/images/index/stockhausen_cats_5.jpg";
+import img6 from "../../assets/images/index/stockhausen_cats_6.jpg";
+import img7 from "../../assets/images/index/stockhausen_cats_7.jpg";
+import img8 from "../../assets/images/index/stockhausen_cats_8.jpg";
+import img9 from "../../assets/images/index/stockhausen_cats_9.jpg";
+import img10 from "../../assets/images/index/stockhausen_cats_10.jpg";
 import CatsText from "./Texte/CatsText";
 
 const Cats = () => {
