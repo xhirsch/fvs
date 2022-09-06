@@ -24,7 +24,7 @@ const Nav = ({ open, setOpen }) => {
             <Link to="/publikationen" className="ml-4">
               <li className="px-3 py-1 hover:bg-white">Publikationen</li>
             </Link>
-            <Link to="/projekte" className="ml-4">
+            <Link to="/f-index" className="ml-4">
               <li className="px-3 py-1 hover:bg-white">Index</li>
             </Link>
             <Link to="/biographie" className="ml-4">

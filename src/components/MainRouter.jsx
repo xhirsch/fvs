@@ -28,8 +28,8 @@ const MainRouter = ({ open, setOpen }) => {
                     <Route path="/ausstellungen/:name" component={Project} />
                     <Route exact path="/publikationen" component={Publikationen} />
                     <Route path="/publikationen/:name" component={Project} />
-                    <Route exact path="/projekte" component={Index} />
-                    <Route path="/projekte/:name" component={Project} />
+                    <Route exact path="/f-index" component={Index} />
+                    <Route path="/f-index/:name" component={Project} />
                     <Route path="/biographie" component={Biographie} />
                     <Route path="/impressum" component={Impressum} />
                     <Route path="/datenschutz" component={Datenschutz} />
