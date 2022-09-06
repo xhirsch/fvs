@@ -1,6 +1,6 @@
 import React from "react";
 
-const Biographie = ({}) => {
+const Biographie = () => {
   return (
     <div className="flex flex-col pr-12 pt-40 text-lg xl:text-xs ml-12 xl:ml-64 xl:max-w-4xl">
       {/* LEBEN */}

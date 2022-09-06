@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MainRouter from './components/MainRouter';
 
-const App = ({ }) => {
+const App = () => {
 
   const [open, setOpen] = useState(false);
 

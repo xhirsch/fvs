@@ -1,6 +1,6 @@
 import React from "react";
 
-const Impressum = ({}) => {
+const Impressum = () => {
   return (
     <div className="flex pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
       <div className="right">
@@ -164,7 +164,7 @@ const Impressum = ({}) => {
           <div className="w-full text-left">
             <a
               href="http://www.xaverhirsch.com"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               className="hover:underline"
             >
               <p>Website Xaver Hirsch</p>

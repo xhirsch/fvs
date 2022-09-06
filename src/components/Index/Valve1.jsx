@@ -5,7 +5,6 @@ import StyledCarousel from "../StyledCarousel";
 import img0 from "../../assets/images/index/fvs_valve1_0.jpg";
 import img1 from "../../assets/images/index/fvs_valve1_1.jpg";
 import img2 from "../../assets/images/index/fvs_valve1_2.jpg";
-import img3 from "../../assets/images/index/fvs_valve1_3.jpg";
 import img4 from "../../assets/images/index/fvs_valve1_4.jpg";
 import img5 from "../../assets/images/index/fvs_valve1_5.jpg";
 import img6 from "../../assets/images/index/fvs_valve1_6.jpg";

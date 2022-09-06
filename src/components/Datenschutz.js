@@ -1,6 +1,6 @@
 import React from "react";
 
-const Datenschutz = ({}) => {
+const Datenschutz = () => {
   return (
     <div className="flex">
       <div className="pr-12 pt-40 text-lg xl:text-xs text-left ml-12 xl:ml-64 xl:max-w-4xl">
@@ -48,7 +48,7 @@ const Datenschutz = ({}) => {
               nichtöffentlichen Bereich) mit Anschrift finden Sie unter:
               <a
                 href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="hover:underline"
               >
                 <p>Link.</p>
@@ -208,7 +208,7 @@ const Datenschutz = ({}) => {
               Webfonts (
               <a
                 href="https://www.google.com/webfonts/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="hover:underline"
               >
                 <p>Link.</p>
@@ -225,7 +225,7 @@ const Datenschutz = ({}) => {
               Google finden Sie hier:{" "}
               <a
                 href="https://www.google.com/policies/privacy/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="hover:underline"
               >
                 <p>Link</p>
@@ -277,7 +277,7 @@ const Datenschutz = ({}) => {
           <div className="w-full text-left">
             <a
               href="http://www.xaverhirsch.com"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               className="hover:underline"
             >
               <p>Website Xaver Hirsch</p>

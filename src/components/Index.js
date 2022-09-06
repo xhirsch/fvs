@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ProjectLink from "./ProjectLink";
 
-const Index = ({ }) => {
+const Index = () => {
   return (
     <div className="flex flex-col pt-40 pr-8 text-xl xl:text-sm">
       <ProjectLink
