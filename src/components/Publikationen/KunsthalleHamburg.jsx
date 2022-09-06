@@ -63,6 +63,16 @@ const KunsthalleHamburg = () => {
         showIndicators={false}
         emulateTouch
       >
+
+        <div>
+          <img alt="" src={img46} />
+        </div>
+        <div>
+          <img alt="" src={img47} />
+        </div>
+        <div>
+          <img alt="" src={img48} />
+        </div>
         <div>
           <img alt="" src={img0} />
         </div>
@@ -200,15 +210,6 @@ const KunsthalleHamburg = () => {
         </div>
         <div>
           <img alt="" src={img45} />
-        </div>
-        <div>
-          <img alt="" src={img46} />
-        </div>
-        <div>
-          <img alt="" src={img47} />
-        </div>
-        <div>
-          <img alt="" src={img48} />
         </div>
         
       </StyledCarousel>
