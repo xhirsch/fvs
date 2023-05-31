@@ -20,6 +20,8 @@ import Valve1 from "./Index/Valve1";
 import KunsthalleHamburg from "./Publikationen/KunsthalleHamburg";
 import SalaMendoza from "./Publikationen/SalaMendoza";
 import Fremdlinge from "./Index/Fremdlinge";
+import Nowald from "./Index/Nowald";
+import Dortineinemanderen from "./Index/Dortineinemanderen";
 
 const whatToRender = name => {
   switch (name) {
@@ -61,6 +63,10 @@ const whatToRender = name => {
       return <SalaMendoza />
     case "fremdlinge":
       return <Fremdlinge />
+    case "nowald":
+      return <Nowald />
+    case "dortineinemanderen":
+      return <Dortineinemanderen />
     default:
       return <h1>Halluuuu</h1>;
   }
@@ -86,6 +92,8 @@ const project = {
   kunsthalleHamburg: KunsthalleHamburg,
   salaMendoza: SalaMendoza,
   fremdlinge: Fremdlinge,
+  nowald: Nowald,
+  dortineinemanderen: Dortineinemanderen,
 };
 const Project = () => {
   const { name } = useParams();

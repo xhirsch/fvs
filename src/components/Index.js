@@ -20,9 +20,19 @@ const Index = () => {
         title="» Ein Held unserer Zeit « 31 Photographien"
       />
       <ProjectLink
+        to="/f-index/dortineinemanderen"
+        year="2002"
+        title="dort in einem anderen"
+      />
+      <ProjectLink
         to="/f-index/fremdlinge"
         year="1992"
         title="Fremdlinge"
+      />
+      <ProjectLink
+        to="/f-index/nowald"
+        year="1990"
+        title="Nowald"
       />
       
     </div>
